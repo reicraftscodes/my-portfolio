@@ -1,4 +1,4 @@
-import { FaVolleyballBall } from "react-icons/fa";
+import { FaVolleyballBall, FaEnvelope } from "react-icons/fa";
 import { FiShoppingBag } from "react-icons/fi";
 import { MdOutlinePrivacyTip } from "react-icons/md";
 import { GrReactjs, GrMoney } from "react-icons/gr";
@@ -96,7 +96,7 @@ export default function Home() {
           and a detail-oriented person with extensive knowledge of software designs, development, and testing.
         </p>
         <p>
-          I am seeking for a full time Full Stack Software Engineering especially in Java Spring Boot or DevOps role but I am willing to learn!
+          I am seeking for a full time Full Stack Software Engineering especially in Java Spring because I want to excel in this field, but I am open to any opportunities and willing to learn!
         </p>
         <p>
          The unique things about me is, I love to play drums, doing digital drawings, travelling and can cook literally anything as long as I put my passion in it.
@@ -152,7 +152,17 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="contact" className="space-y-4">
       <Spacer />
+        <h3 className="text-2xl font-bold tracking-widest">/contact me</h3>
+         <p>
+            For general inquiries reach out to me on Facebook @BlueCloudITSolution or email lauraojenas@yahoo.com
+         </p>
+       </section>
+
+      <Spacer />
+      <Spacer />
+
       <section className="grid place-items-center">
         <figure className="text-sm space-y-3">
           <blockquote className="italic">
@@ -162,6 +172,7 @@ export default function Home() {
           <Spacer />
         </figure>
       </section>
+
     </Container>
   );
 }
