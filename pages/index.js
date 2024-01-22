@@ -92,14 +92,13 @@ export default function Home() {
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/about</h2>
         <p>
-          I&apos;m a Full Stack Software Engineer and Cardiff University graduate residing in the UK. I am self-motivated, performance-driven,
-          and a detail-oriented person with extensive knowledge of software designs, development, and testing.
+        Hi, I&apos;m May a software engineer based in the UK and Cardiff University graduate residing in the UK.  I&apos;m proudly deaf, self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of software designs, development, and testing.
         </p>
         <p>
-          I am seeking for a full time Full Stack Software Engineering especially in Java Spring because I want to excel in this field, but I am open to any opportunities and willing to learn!
+          Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring because I want to excel in this field, but I am open to any opportunities and always willing to learn!
         </p>
         <p>
-         The unique things about me is, I love to play drums, doing digital drawings, travelling and can cook literally anything as long as I put my passion in it.
+         The unique things about me is, I love to play drums, acrylic painting, photography travelling and can cook literally anything as long as I put my heart into it.
         </p>
         <p>
          One my core beliefs in life include going above and beyond. I believe it is essential not only for personal achievement and development but also it should reflect back into the work you produce for the clients.
@@ -109,6 +108,7 @@ export default function Home() {
       <section id="tools" className="space-y-4">
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/tools</h2>
+        <p>If you are wondering what technologies and practices I have used, here is the list of technologies I have implemented primarily on my work experience, freelancing and personal projects!</p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {TOOLS.map((tool) => (
             <div
@@ -154,9 +154,9 @@ export default function Home() {
 
       <section id="contact" className="space-y-4">
       <Spacer />
-        <h3 className="text-2xl font-bold tracking-widest">/contact me</h3>
+        <h2 className="text-2xl font-bold tracking-widest">/contact</h2>
          <p>
-            For general inquiries reach out to me on Facebook @BlueCloudITSolution or email lauraojenas@yahoo.com
+            My inbox is always open, whether you have a question or just want to say hello, I will try my best to get back to you! Kindly reach out to me on my Facebook page @BlueCloudITSolution or email lauraojenas@yahoo.com
          </p>
        </section>
 
