@@ -98,10 +98,7 @@ export default function Home() {
           Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring, but I am open to any opportunities and always willing to learn!
         </p>
         <p>
-         The unique things about me is, I love to play drums, acrylic painting, photography travelling and can cook literally anything as long as I put my heart into it.
-        </p>
-        <p>
-         One my core beliefs in life include going above and beyond. I believe it is essential not only for personal achievement and development but also it should reflect back into the work you produce for the clients.
+         The unique things about me is, I love to play drums, acrylic painting, photography. travelling and can cook literally anything as long as I put my heart into it.
         </p>
       </section>
 
@@ -129,7 +126,6 @@ export default function Home() {
           {PROJECTS.map((project) => (
             <div
               key={project.id}
-              // href={project.link}
               className="flex items-center gap-11 justify-center border border-neutral-500 dark:border-amber-50 p-4"
             >
               <a href={project.link} className="">
@@ -151,18 +147,19 @@ export default function Home() {
           ))}
         </div>
       </section>
-
+ 
       <section id="contact" className="space-y-4">
       <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/contact</h2>
          <p>
-            My inbox is always open, whether you have a question or just want to say hello, I will try my best to get back to you! Kindly reach out to me on my Facebook page @BlueCloudITSolution or email lauraojenas@yahoo.com
+          My inbox is always open, whether you have a question or just want to say hello, I will try my best to get back to you! Kindly reach out to me on my Facebook page{' '}
+          <a href="https://www.facebook.com/BlueCloudITSolution" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
+          @BlueCloudITSolution
+          </a>{' '} or email{' '} <a href="mailto:lauraojenas@yahoo.com" style={{ textDecoration: 'underline' }}> lauraojenas@yahoo.com </a>
          </p>
        </section>
 
-      <Spacer />
-      <Spacer />
-
+       <Spacer />
       <section className="grid place-items-center">
         <figure className="text-sm space-y-3">
           <blockquote className="italic">
