@@ -18,6 +18,7 @@ export default function Navbar() {
     { id: 1, title: "About", path: "#about" },
     { id: 2, title: "Tools", path: "#tools" },
     { id: 3, title: "Projects", path: "#projects" },
+    { id: 4, title: "Contact", path: "#contact" },
   ];
 
   const profileLinks = [

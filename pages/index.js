@@ -95,7 +95,7 @@ export default function Home() {
         Hi, I&apos;m Laurate a software engineer based in the UK and Cardiff University graduate residing in the UK. I&apos;m proudly deaf, self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of software designs, development, and testing.
         </p>
         <p>
-          Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring because I want to excel in this field, but I am open to any opportunities and always willing to learn!
+          Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring, but I am open to any opportunities and always willing to learn!
         </p>
         <p>
          The unique things about me is, I love to play drums, acrylic painting, photography travelling and can cook literally anything as long as I put my heart into it.
@@ -107,7 +107,7 @@ export default function Home() {
 
       <section id="tools" className="space-y-4">
         <Spacer />
-        <h2 className="text-2xl font-bold tracking-widest">/tools</h2>
+        <h2 className="text-2xl font-bold tracking-widest">/skills & technologies</h2>
         <p>If you are wondering what technologies and practices I have used, here is the list of technologies I have implemented primarily on my work experience, freelancing and personal projects!</p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {TOOLS.map((tool) => (
