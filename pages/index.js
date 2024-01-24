@@ -1,4 +1,4 @@
-import { GrReactjs, GrMoney } from "react-icons/gr";
+import { GrReactjs } from "react-icons/gr";
 import {
   SiRedux,
   SiDocker,
@@ -10,6 +10,8 @@ import Container from "../components/Container";
 import Spacer from "../components/Spacer";
 import { PROFILE_LINKS } from "../constants/profileLinks";
 import { TOOLS } from "../constants/tools";
+import { Tooltip } from 'react-tooltip'
+
 
 export default function Home() {
   const PROJECTS = [
@@ -20,10 +22,10 @@ export default function Home() {
       link: "https://github.com/reicraftscodes/uas-lifecycle-management-frontend",
       image: "/images/uasweband.jpg",
       techs: [
-        { id: 1, icon: <GrReactjs /> },
-        { id: 2, icon: <SiRedux /> },
-        { id: 3, icon: <SiCypress /> },
-        { id: 4, icon: <SiHeroku  /> },
+        { id: 1, name: "React.js",icon: <GrReactjs /> },
+        { id: 2, name: "Redux", icon: <SiRedux /> },
+        { id: 3, name: "Cypress", icon: <SiCypress /> },
+        { id: 4, name: "Heroku", icon: <SiHeroku  /> },
       ],
       other: "#End-to end testing #BDD"
     },
@@ -34,9 +36,9 @@ export default function Home() {
       link: "https://github.com/reicraftscodes/uas-lifecycle-management",
       image: "/images/uasbe.jpg",
       techs: [
-        { id: 1, icon: <SiSpring /> },
-        { id: 2, icon: <SiDocker /> },
-        { id: 3, icon: <SiHeroku /> },
+        { id: 1, name: "Spring", icon: <SiSpring /> },
+        { id: 2, name: "Docker", icon: <SiDocker /> },
+        { id: 3, name: "Heroku", icon: <SiHeroku /> },
       ],
       other: "#Unit testing #Integration Test #TDD #BDD"
     },
@@ -103,6 +105,7 @@ export default function Home() {
             <div
               key={project.id}
               className="flex items-center gap-11 justify-center border border-neutral-500 dark:border-amber-50 p-4"
+              data-tip={project.title}
             >
               <a href={project.link} className=""><img src={project.image} className="max-w-full h-auto" /></a>
               <div>
@@ -111,18 +114,20 @@ export default function Home() {
 
                 <div className="flex items-center gap-1 mt-2">
                   {project.techs.map((tech) => (
-                    <span key={tech.id} className="text-lg">
+                    <span key={tech.id} 
+                      className="text-lg" data-tooltip-id="my-tooltip-inline"
+                      data-tooltip-content={tech.name}
+                      >
                       {tech.icon}
                     </span>
                   ))}
                 </div>
-
                 <small>{project.other}</small>
-
               </div>
             </div>
           ))}
         </div>
+        <Tooltip  id="my-tooltip-inline" style={{ backgroundColor: "rgb(55, 55, 55)", color: "#fff" }}/>
       </section>
  
       <section id="contact" className="space-y-4">
