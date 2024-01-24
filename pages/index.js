@@ -1,15 +1,10 @@
-import { FaVolleyballBall, FaEnvelope } from "react-icons/fa";
-import { FiShoppingBag } from "react-icons/fi";
-import { MdOutlinePrivacyTip } from "react-icons/md";
 import { GrReactjs, GrMoney } from "react-icons/gr";
 import {
-  SiNextdotjs,
   SiRedux,
-  SiTailwindcss,
-  SiHtml5,
-  SiNestjs,
-  SiPostgresql,
   SiDocker,
+  SiHeroku,
+  SiCypress,
+  SiSpring,
 } from "react-icons/si";
 import Container from "../components/Container";
 import Spacer from "../components/Spacer";
@@ -20,47 +15,28 @@ export default function Home() {
   const PROJECTS = [
     {
       id: 1,
-      title: "Lorem Ipsum",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nibh tellus molestie nunc non. Enim neque volutpat ac tincidunt. ",
-      link: "http://localhost:3000/",
-      icon: <MdOutlinePrivacyTip className="text-5xl" />,
+      title: "FE Unmanned Aerial System Lifecycle Management Application",
+      description: "A web FE inventory system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis.",
+      link: "https://github.com/reicraftscodes/uas-lifecycle-management-frontend",
+      image: "/images/cat1.jpg",
       techs: [
         { id: 1, icon: <GrReactjs /> },
         { id: 2, icon: <SiRedux /> },
+        { id: 3, icon: <SiCypress /> },
+        { id: 4, icon: <SiHeroku  /> },
       ],
+      other: "other: #End-to end testing"
     },
     {
       id: 2,
-      title: "Lorem Ipsum",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nibh tellus molestie nunc non. Enim neque volutpat ac tincidunt. ",
+      title: "BE Unmanned Aerial System Lifecycle Management Application",
+      description: " A Backend REST API for Unmanned Aerial System Lifecycle Management Application",
       link: "http://localhost:3000/",
-      icon: <GrMoney className="text-5xl" />,
+      image: "/images/cat1.jpg",
       techs: [
-        { id: 1, icon: <SiNestjs /> },
+        { id: 1, icon: <SiSpring /> },
         { id: 2, icon: <SiDocker /> },
-        { id: 3, icon: <SiPostgresql /> },
-      ],
-    },
-    {
-      id: 3,
-      title: "Lorem Ipsum",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nibh tellus molestie nunc non. Enim neque volutpat ac tincidunt. ",
-      link: "http://localhost:3000/",
-      icon: <FaVolleyballBall className="text-5xl" />,
-      techs: [
-        { id: 1, icon: <SiHtml5 /> },
-        { id: 2, icon: <SiTailwindcss /> },
-      ],
-    },
-    {
-      id: 4,
-      title: "Lorem Ipsum",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nibh tellus molestie nunc non. Enim neque volutpat ac tincidunt. ",
-      link: "http://localhost:3000/",
-      icon: <FiShoppingBag className="text-5xl" />,
-      techs: [
-        { id: 1, icon: <SiNextdotjs /> },
-        { id: 2, icon: <SiTailwindcss /> },
+        { id: 3, icon: <SiHeroku /> },
       ],
     },
   ];
@@ -122,15 +98,13 @@ export default function Home() {
       <section id="projects" className="space-y-4">
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           {PROJECTS.map((project) => (
             <div
               key={project.id}
               className="flex items-center gap-11 justify-center border border-neutral-500 dark:border-amber-50 p-4"
             >
-              <a href={project.link} className="">
-                {project.icon}
-              </a>
+              <a href={project.link} className=""><img src={project.image} className="max-w-full h-auto" /></a>
               <div>
                 <p className="font-bold text-xl">{project.title}</p>
                 <small>{project.description}</small>
@@ -142,6 +116,9 @@ export default function Home() {
                     </span>
                   ))}
                 </div>
+
+                <small>{project.other}</small>
+
               </div>
             </div>
           ))}
