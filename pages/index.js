@@ -75,7 +75,7 @@ export default function Home() {
           Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring, but I am open to any opportunities and always willing to learn!
         </p>
         <p>
-         The unique things about me is, I love to play drums, acrylic painting, photography. travelling and can cook literally anything as long as I put my heart into it.
+         The unique things about me is, I love reading novels, acrylic painting, photography, travelling and can cook literally anything as long as I put my heart into it.
         </p>
       </section>
 
@@ -83,14 +83,13 @@ export default function Home() {
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/skills & technologies</h2>
         <p>If you are wondering what technologies and practices I have used, here is the list of technologies I have implemented primarily on my work experience, freelancing and personal projects!</p>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-2">
           {TOOLS.map((tool) => (
             <div
               key={tool.id}
               className="border border-neutral-500 dark:border-amber-50 p-4 space-y-4 grid place-items-center"
-            >
-              <p className="text-4xl">{tool.icon}</p>
-              <p className="text-center">{tool.title}</p>
+            >              
+            <p className="text-center">{tool.title}</p>
             </div>
           ))}
         </div>
