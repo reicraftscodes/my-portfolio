@@ -15,29 +15,30 @@ export default function Home() {
   const PROJECTS = [
     {
       id: 1,
-      title: "FE Unmanned Aerial System Lifecycle Management Application",
-      description: "A web FE inventory system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis.",
+      title: "UAS Management Application (Frontend)",
+      description: "An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis.",
       link: "https://github.com/reicraftscodes/uas-lifecycle-management-frontend",
-      image: "/images/cat1.jpg",
+      image: "/images/uasweband.jpg",
       techs: [
         { id: 1, icon: <GrReactjs /> },
         { id: 2, icon: <SiRedux /> },
         { id: 3, icon: <SiCypress /> },
         { id: 4, icon: <SiHeroku  /> },
       ],
-      other: "other: #End-to end testing"
+      other: "#End-to end testing #BDD"
     },
     {
       id: 2,
-      title: "BE Unmanned Aerial System Lifecycle Management Application",
-      description: " A Backend REST API for Unmanned Aerial System Lifecycle Management Application",
-      link: "http://localhost:3000/",
-      image: "/images/cat1.jpg",
+      title: "UAS Management Application (Backend)",
+      description: "An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis.",
+      link: "https://github.com/reicraftscodes/uas-lifecycle-management",
+      image: "/images/uasbe.jpg",
       techs: [
         { id: 1, icon: <SiSpring /> },
         { id: 2, icon: <SiDocker /> },
         { id: 3, icon: <SiHeroku /> },
       ],
+      other: "#Unit testing #Integration Test #TDD #BDD"
     },
   ];
 
@@ -106,7 +107,7 @@ export default function Home() {
             >
               <a href={project.link} className=""><img src={project.image} className="max-w-full h-auto" /></a>
               <div>
-                <p className="font-bold text-xl">{project.title}</p>
+                <p className="font-bold text-lg">{project.title}</p>
                 <small>{project.description}</small>
 
                 <div className="flex items-center gap-1 mt-2">
