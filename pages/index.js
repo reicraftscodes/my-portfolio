@@ -1,10 +1,11 @@
 import { GrReactjs } from "react-icons/gr";
+import { FaJava } from "react-icons/fa";
 import {
   SiRedux,
-  SiDocker,
   SiHeroku,
   SiCypress,
   SiSpring,
+  SiJunit5,
 } from "react-icons/si";
 import Container from "../components/Container";
 import Spacer from "../components/Spacer";
@@ -27,7 +28,7 @@ export default function Home() {
         { id: 3, name: "Cypress", icon: <SiCypress /> },
         { id: 4, name: "Heroku", icon: <SiHeroku  /> },
       ],
-      other: "#End-to end testing #BDD"
+      other: "#End-to-end Testing #BDD"
     },
     {
       id: 2,
@@ -36,9 +37,10 @@ export default function Home() {
       link: "https://github.com/reicraftscodes/uas-lifecycle-management",
       image: "/images/uasbe.jpg",
       techs: [
-        { id: 1, name: "Spring", icon: <SiSpring /> },
-        { id: 2, name: "Docker", icon: <SiDocker /> },
-        { id: 3, name: "Heroku", icon: <SiHeroku /> },
+        { id: 1, name: "Java", icon: <FaJava/> },
+        { id: 2, name: "Spring", icon: <SiSpring /> },
+        { id: 3, name: "Junit5", icon: <SiJunit5 /> },
+        { id: 4, name: "Heroku", icon: <SiHeroku /> },
       ],
       other: "#Unit testing #Integration Test #TDD #BDD"
     },
