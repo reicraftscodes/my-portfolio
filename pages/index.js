@@ -60,7 +60,7 @@ export default function Home() {
               <a
                 key={profileLink.id}
                 href={profileLink.path}
-                className="text-3xl"
+                className="text-3xl max-w-xs transition duration-300 ease-in-out hover:scale-110"
               >
                 {profileLink.icon}
               </a>
