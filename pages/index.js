@@ -53,7 +53,7 @@ export default function Home() {
       <section className="w-full flex items-center justify-center">
         <div>
           <p>Hi, my name is</p>
-          <h1 className="font-bold text-3xl">Laurate S.</h1>
+          <h1 className="font-bold text-3xl inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">Laurate S.</h1>
           <p className="text-right"> Full Stack Software Engineer & UI/UX Designer </p>
           <div className="flex items-center justify-end space-x-4 mt-3">
             {PROFILE_LINKS.map((profileLink) => (
