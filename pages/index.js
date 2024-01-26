@@ -1,11 +1,17 @@
 import { GrReactjs } from "react-icons/gr";
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaNodeJs, FaBootstrap   } from "react-icons/fa";
 import {
   SiRedux,
   SiHeroku,
   SiCypress,
+  SiExpress,
   SiSpring,
   SiJunit5,
+  SiAndroidstudio,
+  SiMysql,
+  SiPostman,
+  SiJest,
+  SiMongodb, 
 } from "react-icons/si";
 import Container from "../components/Container";
 import Spacer from "../components/Spacer";
@@ -27,6 +33,8 @@ export default function Home() {
         { id: 2, name: "Redux", icon: <SiRedux /> },
         { id: 3, name: "Cypress", icon: <SiCypress /> },
         { id: 4, name: "Heroku", icon: <SiHeroku  /> },
+        { id: 5, name: "Java", icon: <FaJava/> },
+        { id: 6, name: "Android Studio", icon: <SiAndroidstudio  /> },
       ],
       other: "#End-to-end Testing #BDD"
     },
@@ -40,9 +48,27 @@ export default function Home() {
         { id: 1, name: "Java", icon: <FaJava/> },
         { id: 2, name: "Spring", icon: <SiSpring /> },
         { id: 3, name: "Junit5", icon: <SiJunit5 /> },
-        { id: 4, name: "Heroku", icon: <SiHeroku /> },
+        { id: 4, name: "MySQL ", icon: <SiMysql  /> },
+        { id: 5, name: "Heroku", icon: <SiHeroku /> },
+        { id: 6, name: "Postman", icon: <SiPostman  /> },
       ],
       other: "#Unit testing #Integration Test #TDD #BDD"
+    },
+    {
+      id: 3,
+      title: "ActiveBee real-time web application",
+      description: " A real-time web chat application that aims for university students to connect with everyone in the university during the pandemic COVID19 and to tackle loneliness. ",
+      link: "https://github.com/reicraftscodes/web-chat-application",
+      image: "/images/activebee.jpg",
+      techs: [
+        { id: 1, name: "React.js",icon: <GrReactjs /> },
+        { id: 2, name: "Node.js ", icon: <FaNodeJs  /> },
+        { id: 3, name: "Express.js", icon: <SiExpress /> },
+        { id: 4, name: "Mongodb  ", icon: <SiMongodb   /> },
+        { id: 5, name: "Jest ", icon: <SiJest /> },
+        { id: 6, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
+      ],
+      other: "#End-to-end Testing"
     },
   ];
 
@@ -53,7 +79,7 @@ export default function Home() {
       <section className="w-full flex items-center justify-center">
         <div>
           <p>Hi, my name is</p>
-          <h1 className="font-bold text-3xl inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">Laurate S.</h1>
+          <h1 className="font-bold text-3xl ">Laurate S.</h1>
           <p className="text-right"> Full Stack Software Engineer & UI/UX Designer </p>
           <div className="flex items-center justify-end space-x-4 mt-3">
             {PROFILE_LINKS.map((profileLink) => (
@@ -79,7 +105,7 @@ export default function Home() {
           Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring, but I am open to any opportunities and always willing to learn!
         </p>
         <p>
-         The unique things about me is, I love reading novels, acrylic painting, photography, travelling and can cook literally anything as long as I put my heart into it.
+          My hobbies are reading novels, acrylic painting, photography, travelling and can cook literally anything as long as I put my heart into it.
         </p>
       </section>
 
