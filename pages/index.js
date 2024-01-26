@@ -132,7 +132,7 @@ export default function Home() {
           {PROJECTS.map((project) => (
             <div
               key={project.id}
-              className="flex items-center gap-11 justify-center border border-neutral-500 dark:border-amber-50 p-4"
+              className="flex items-center gap-5 justify-center border border-neutral-500 dark:border-amber-50 p-4"
               data-tip={project.title}
             >
               <a href={project.link} className=""><img src={project.image} className="max-w-full h-auto" /></a>
