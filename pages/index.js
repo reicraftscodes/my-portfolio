@@ -1,5 +1,5 @@
 import { GrReactjs } from "react-icons/gr";
-import { FaJava, FaNodeJs, FaBootstrap   } from "react-icons/fa";
+import { FaJava, FaNodeJs, FaBootstrap, FaFigma} from "react-icons/fa";
 import {
   SiRedux,
   SiHeroku,
@@ -12,6 +12,9 @@ import {
   SiPostman,
   SiJest,
   SiMongodb, 
+  SiPhp,
+  SiWordpress,
+  SiThymeleaf,
 } from "react-icons/si";
 import Container from "../components/Container";
 import Spacer from "../components/Spacer";
@@ -24,19 +27,16 @@ export default function Home() {
   const PROJECTS = [
     {
       id: 1,
-      title: "UAS Management Application (Frontend)",
-      description: "An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis.",
-      link: "https://github.com/reicraftscodes/uas-lifecycle-management-frontend",
-      image: "/images/uasweband.jpg",
+      title: "CoDeaf Tech Community",
+      description: " A CoDeaf is a web-based platform designed to inspire and empower the deaf and hard-of-hearing community to learn programming and UX/UI design.",
+      link: "https://www.figma.com/file/us1r7fPWHNPcGV6muMG4dB/CoDeaf?type=design&node-id=0%3A1&mode=design&t=Q9HqesjA9t6UvZDh-1",
+      image: "/images/codeaf.jpg",
       techs: [
-        { id: 1, name: "React.js",icon: <GrReactjs /> },
-        { id: 2, name: "Redux", icon: <SiRedux /> },
-        { id: 3, name: "Cypress", icon: <SiCypress /> },
-        { id: 4, name: "Heroku", icon: <SiHeroku  /> },
-        { id: 5, name: "Java", icon: <FaJava/> },
-        { id: 6, name: "Android Studio", icon: <SiAndroidstudio  /> },
+        { id: 1, name: "Figma",icon: <FaFigma /> },
+        { id: 2, name: "React.js",icon: <GrReactjs /> },
+        { id: 3, name: "Java", icon: <FaJava/> },
       ],
-      other: "#End-to-end Testing #BDD"
+      other: "...ONGOING PROJECT"
     },
     {
       id: 2,
@@ -56,6 +56,22 @@ export default function Home() {
     },
     {
       id: 3,
+      title: "UAS Management Application (Frontend)",
+      description: "An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis.",
+      link: "https://github.com/reicraftscodes/uas-lifecycle-management-frontend",
+      image: "/images/uasweband.jpg",
+      techs: [
+        { id: 1, name: "React.js",icon: <GrReactjs /> },
+        { id: 2, name: "Redux", icon: <SiRedux /> },
+        { id: 3, name: "Cypress", icon: <SiCypress /> },
+        { id: 4, name: "Heroku", icon: <SiHeroku  /> },
+        { id: 5, name: "Java", icon: <FaJava/> },
+        { id: 6, name: "Android Studio", icon: <SiAndroidstudio  /> },
+      ],
+      other: "#End-to-end Testing #BDD"
+    },
+    {
+      id: 4,
       title: "ActiveBee real-time web application",
       description: " A real-time web chat application that aims for university students to connect with everyone in the university during the pandemic COVID19 and to tackle loneliness. ",
       link: "https://github.com/reicraftscodes/web-chat-application",
@@ -69,6 +85,32 @@ export default function Home() {
         { id: 6, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
       ],
       other: "#End-to-end Testing"
+    },
+    {
+      id: 5,
+      title: "Accu-Serve Customs Brokerage",
+      description: " A brokerage web application that aims to help clients with the highest quality of customs brokerage service available and to provide them innovative solutions and expertise. ",
+      link: "http://ascbiph.com/",
+      image: "/images/accuserve.jpg",
+      techs: [
+        { id: 1, name: "Wordpress",icon: <SiWordpress   /> },
+        { id: 2, name: "Php ", icon: <SiPhp  /> },
+      ],
+      other: ""
+    },
+    {
+      id: 5,
+      title: "Skill-Sharing Web Application",
+      description: "A skill-sharing platform designed for employees of the Office of National Statistics that enables them to provide and seek assistance on issues relevant to the topics they choose.",
+      link: "https://github.com/reicraftscodes/ons_group2",
+      image: "/images/ons.jpg",
+      techs: [
+        { id: 1, name: "Java", icon: <FaJava/> },
+        { id: 2, name: "Spring", icon: <SiSpring /> },
+        { id: 3, name: "Thymeleaf", icon: <SiThymeleaf  /> },
+        { id: 4, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
+      ],
+      other: "#Spring MVC #Mockito #Unit Testing"
     },
   ];
 
