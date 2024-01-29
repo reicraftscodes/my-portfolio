@@ -25,22 +25,21 @@ export const PROJECTS = [
     {
       id: 1,
       title: "CoDeaf Tech Community",
-      description: " A CoDeaf is a web-based platform designed to inspire and empower the deaf and hard-of-hearing community to learn programming and UX/UI design.",
+      description: " A CoDeaf is a web-based platform designed for hard of hearing and deaf community",
       fullDesc: `
       <ul>
-        <li>Paragraph 1: </li>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis urna id. Imperdiet proin fermentum leo vel orci porta non pulvinar. Tempor id eu nisl nunc mi ipsum. Amet porttitor eget dolor morbi non arcu. Ultrices gravida dictum fusce ut placerat. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Natoque penatibus et magnis dis. Aliquam eleifend mi in nulla. Turpis massa sed elementum tempus. Eu scelerisque felis imperdiet proin fermentum. Ultrices mi tempus imperdiet nulla malesuada. Nunc sed velit dignissim sodales ut eu sem. Venenatis tellus in metus vulputate eu. Quam vulputate dignissim suspendisse in est ante in nibh mauris.</li>
-        </ul>
-       
-        <li>Paragraph 2:</li>
-        <ul>
-          <li>Sagittis vitae et leo duis. Tempor orci eu lobortis elementum nibh. Risus quis varius quam quisque id diam. Amet cursus sit amet dictum sit amet. Ante metus dictum at tempor commodo ullamcorper a lacus. Tellus in hac habitasse platea dictumst. In hac habitasse platea dictumst vestibulum rhoncus est. Elementum tempus egestas sed sed risus. Nunc sed id semper risus in hendrerit. Tincidunt lobortis feugiat vivamus at augue.</li>
-        </ul>
+        <li style="font-weight: bold">Project Description: </li>
+        <p>A CoDeaf is a web-based platform designed to inspire and empower the deaf and hard-of-hearing community to learn programming and UX/UI design </p>
+        <br>
+        <li> The project is still in Figma UI design phase </li>
+        <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://www.figma.com/file/us1r7fPWHNPcGV6muMG4dB/CoDeaf?type=design&node-id=0%3A1&mode=design&t=o40kTxaPLJfD293u-1t"> Figma url </a> </li>
 
-        <li>Paragraph 3:</li>
+        <br>
+        <li style="font-weight: bold">Technologies: </li>
         <ul>
-        <li>Sapien eget mi proin sed libero enim sed. Urna porttitor rhoncus dolor purus. Pellentesque dignissim enim sit amet venenatis urna. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Quam id leo in vitae. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A diam sollicitudin tempor id eu nisl nunc. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sit amet massa vitae tortor condimentum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Feugiat in ante metus dictum. Aliquam etiam erat velit scelerisque in dictum. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Cras sed felis eget velit. Pellentesque elit eget gravida cum sociis. Ultrices dui sapien eget mi. Eget magna fermentum iaculis eu non diam phasellus. Vitae tortor condimentum lacinia quis vel.</li>
+          <li> - Next.js </li>
+          <li> - React.js </li>
+          <li> - Spring </li>
       </ul>
     `,
       
@@ -55,22 +54,37 @@ export const PROJECTS = [
     {
       id: 2,
       title: "UAS Management Application (Backend)",
-      description: "An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis.",
+      description: "Spring Boot Backend API for web and android as a part of degree completion",
       fullDesc: `
       <ul>
-        <li>Paragraph 1: </li>
+        <li style="font-weight: bold">Project Description: </li>
+        <p> An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis. Inaddition to this,
+        the lifecycle management system will also give access to unmanned aerial system parts stock with
+        supplier locations and the ability to generate a purchase order to automatically request additional
+        stock and assign parts from the different locations, as discussed.</p>
+        <br>
+        <p>In the development of inventory and tracking system for unmanned aircraft, we employed the Agile Scrum framework to ensure a flexible and collaborative approach. </p>
+        <br>
+        <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management-frontend"> https://github.com/reicraftscodes/uas-lifecycle-management-frontend</a> </li>
+        <br>
+        <li style="font-weight: bold">Features: </li>
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis urna id. Imperdiet proin fermentum leo vel orci porta non pulvinar. Tempor id eu nisl nunc mi ipsum. Amet porttitor eget dolor morbi non arcu. Ultrices gravida dictum fusce ut placerat. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Natoque penatibus et magnis dis. Aliquam eleifend mi in nulla. Turpis massa sed elementum tempus. Eu scelerisque felis imperdiet proin fermentum. Ultrices mi tempus imperdiet nulla malesuada. Nunc sed velit dignissim sodales ut eu sem. Venenatis tellus in metus vulputate eu. Quam vulputate dignissim suspendisse in est ante in nibh mauris.</li>
+          <li> - MVC for Spring boot </li>
+          <li> - RESTFUL API </li>
+          <li> - Cloud Hosting: Automated pipelines in Gitlab CI-CD to automatically test and deploy the application which also includes the Mysql JAW to a cloud provider using Heroku by the user. </li>
+          <li> - Performance/Benchmark tested by Loadmill Automated Testing </li>
+          <li> - Core layer:  Login, Register, Gmail SMTP (Email) API </li>
+          <li> - Business layer: Inventory, Monitoring Stocks API </li>
+          <li> - C4 Diagram to visualise architecture diagram </li>
         </ul>
-       
-        <li>Paragraph 2:</li>
+        <br>
+        <li style="font-weight: bold">Technologies used: </li>
         <ul>
-          <li>Sagittis vitae et leo duis. Tempor orci eu lobortis elementum nibh. Risus quis varius quam quisque id diam. Amet cursus sit amet dictum sit amet. Ante metus dictum at tempor commodo ullamcorper a lacus. Tellus in hac habitasse platea dictumst. In hac habitasse platea dictumst vestibulum rhoncus est. Elementum tempus egestas sed sed risus. Nunc sed id semper risus in hendrerit. Tincidunt lobortis feugiat vivamus at augue.</li>
-        </ul>
-
-        <li>Paragraph 3:</li>
-        <ul>
-        <li>Sapien eget mi proin sed libero enim sed. Urna porttitor rhoncus dolor purus. Pellentesque dignissim enim sit amet venenatis urna. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Quam id leo in vitae. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A diam sollicitudin tempor id eu nisl nunc. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sit amet massa vitae tortor condimentum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Feugiat in ante metus dictum. Aliquam etiam erat velit scelerisque in dictum. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Cras sed felis eget velit. Pellentesque elit eget gravida cum sociis. Ultrices dui sapien eget mi. Eget magna fermentum iaculis eu non diam phasellus. Vitae tortor condimentum lacinia quis vel.</li>
+          <li> - Java, Spring, Spring Web JPA Security, Junit5, Mockito </li>
+          <li> - Heroku </li>
+          <li> - PostMan </li>
+          <li> - Structurizr </li>
+          <li> - Adnroid development : MVVM, OkHttp, Retrofit </li>
       </ul>
     `,
       image: "/images/uasbe.jpg",
@@ -87,25 +101,37 @@ export const PROJECTS = [
     {
       id: 3,
       title: "UAS Management Application (Frontend)",
-      description: "An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis.",
+      description: "A web frontend and android inventory and tracking system for UAS as a part of degree completion",
       fullDesc: `
       <ul>
-        <li>Paragraph 1: </li>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis urna id. Imperdiet proin fermentum leo vel orci porta non pulvinar. Tempor id eu nisl nunc mi ipsum. Amet porttitor eget dolor morbi non arcu. Ultrices gravida dictum fusce ut placerat. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Natoque penatibus et magnis dis. Aliquam eleifend mi in nulla. Turpis massa sed elementum tempus. Eu scelerisque felis imperdiet proin fermentum. Ultrices mi tempus imperdiet nulla malesuada. Nunc sed velit dignissim sodales ut eu sem. Venenatis tellus in metus vulputate eu. Quam vulputate dignissim suspendisse in est ante in nibh mauris.</li>
-        </ul>
-       
-        <li>Paragraph 2:</li>
-        <ul>
-          <li>Sagittis vitae et leo duis. Tempor orci eu lobortis elementum nibh. Risus quis varius quam quisque id diam. Amet cursus sit amet dictum sit amet. Ante metus dictum at tempor commodo ullamcorper a lacus. Tellus in hac habitasse platea dictumst. In hac habitasse platea dictumst vestibulum rhoncus est. Elementum tempus egestas sed sed risus. Nunc sed id semper risus in hendrerit. Tincidunt lobortis feugiat vivamus at augue.</li>
-        </ul>
-
-        <li>Paragraph 3:</li>
-        <ul>
-        <li>Sapien eget mi proin sed libero enim sed. Urna porttitor rhoncus dolor purus. Pellentesque dignissim enim sit amet venenatis urna. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Quam id leo in vitae. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A diam sollicitudin tempor id eu nisl nunc. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sit amet massa vitae tortor condimentum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Feugiat in ante metus dictum. Aliquam etiam erat velit scelerisque in dictum. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Cras sed felis eget velit. Pellentesque elit eget gravida cum sociis. Ultrices dui sapien eget mi. Eget magna fermentum iaculis eu non diam phasellus. Vitae tortor condimentum lacinia quis vel.</li>
+      <li style="font-weight: bold">Project Description: </li>
+      <p> An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis. Inaddition to this,
+      the lifecycle management system will also give access to unmanned aerial system parts stock with
+      supplier locations and the ability to generate a purchase order to automatically request additional
+      stock and assign parts from the different locations, as discussed.</p>
+      <br>
+      <p>In the development of inventory and tracking system for unmanned aircraft, we employed the Agile Scrum framework to ensure a flexible and collaborative approach. </p>
+      <br>
+      <li style="font-weight: bold; "> Project Link: </li>
+      <ul>
+      <li> Web frontend repository- <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management"> https://github.com/reicraftscodes/uas-lifecycle-management</a> </li>
+      <li> Android project repository- <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management-androidt"> https://github.com/reicraftscodes/uas-lifecycle-management-android </a>  </li>
       </ul>
-    `,
-      image: "/images/uasweband.jpg",
+      <br>
+      <li style="font-weight: bold">Features: </li>
+      <ul>
+        <li> - Aircraft inventory and monitoring stocks web and mobile ui view  </li>
+      </ul>
+      <br>
+      <li style="font-weight: bold">Technologies used: </li>
+      <ul>
+        <li> - React.js, React Router, Redux for state management</li>
+        <li> - Material UI Components </li>
+        <li> - Cypress for end-to-end testing</li>
+        <li> - Adnroid development </li>
+    </ul>
+  `,
+      image: "/images/uasweb.jpg",
       techs: [
         { id: 1, name: "React.js",icon: <GrReactjs /> },
         { id: 2, name: "Redux", icon: <SiRedux /> },
@@ -118,23 +144,33 @@ export const PROJECTS = [
     },
     {
       id: 4,
-      title: "ActiveBee real-time web application",
-      description: " A real-time web chat application that aims for university students to connect with everyone in the university during the pandemic COVID19 and to tackle loneliness. ",
+      title: "ActiveBee",
+      description: " A real-time web chat application that aims for all NSA applied software engineer students",
       fullDesc: `
       <ul>
-        <li>Paragraph 1: </li>
+        <li style="font-weight: bold">Project Description: </li>
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis urna id. Imperdiet proin fermentum leo vel orci porta non pulvinar. Tempor id eu nisl nunc mi ipsum. Amet porttitor eget dolor morbi non arcu. Ultrices gravida dictum fusce ut placerat. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Natoque penatibus et magnis dis. Aliquam eleifend mi in nulla. Turpis massa sed elementum tempus. Eu scelerisque felis imperdiet proin fermentum. Ultrices mi tempus imperdiet nulla malesuada. Nunc sed velit dignissim sodales ut eu sem. Venenatis tellus in metus vulputate eu. Quam vulputate dignissim suspendisse in est ante in nibh mauris.</li>
+          <li>A real-time web chat application that aims for university students to connect with everyone in the university during the pandemic COVID19.</li>
         </ul>
-       
-        <li>Paragraph 2:</li>
+        <br>
+        <li style="font-weight: bold; "> Project Link: </li>
         <ul>
-          <li>Sagittis vitae et leo duis. Tempor orci eu lobortis elementum nibh. Risus quis varius quam quisque id diam. Amet cursus sit amet dictum sit amet. Ante metus dictum at tempor commodo ullamcorper a lacus. Tellus in hac habitasse platea dictumst. In hac habitasse platea dictumst vestibulum rhoncus est. Elementum tempus egestas sed sed risus. Nunc sed id semper risus in hendrerit. Tincidunt lobortis feugiat vivamus at augue.</li>
+        <li><a style="text-decoration: underline; " href="https://github.com/reicraftscodes/web-chat-application">https://github.com/reicraftscodes/web-chat-application</a> </li>
         </ul>
-
-        <li>Paragraph 3:</li>
+        <br>
+        <li style="font-weight: bold">Features: </li>
         <ul>
-        <li>Sapien eget mi proin sed libero enim sed. Urna porttitor rhoncus dolor purus. Pellentesque dignissim enim sit amet venenatis urna. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Quam id leo in vitae. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A diam sollicitudin tempor id eu nisl nunc. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sit amet massa vitae tortor condimentum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Feugiat in ante metus dictum. Aliquam etiam erat velit scelerisque in dictum. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Cras sed felis eget velit. Pellentesque elit eget gravida cum sociis. Ultrices dui sapien eget mi. Eget magna fermentum iaculis eu non diam phasellus. Vitae tortor condimentum lacinia quis vel.</li>
+          <li> - Real-time Chat: Users can engage in real-time one-on-one conversations with other users on the platform and can see who left the chat</li>
+          <li> - User Presence Status: Users can see the online status of their chat contacts to know when they are available for communication. </li>
+          <li> - Profile Management: Users can create and edit their profile picture  </li>
+          <li> - Notifications: Users receive real-time notifications for new messages, ensuring prompt responses.</li>
+          <li> - Typing Indicators: Users receive real-time indicators when someone is typing a message in the chat. </li>
+        </ul>
+    
+        <br>
+        <li style="font-weight: bold">Technologies: </li>
+        <ul>
+        <li>MERN stack</li>
       </ul>
     `,
       image: "/images/activebee.jpg",
