@@ -54,7 +54,7 @@ export const PROJECTS = [
     {
       id: 2,
       title: "UAS Management Application (Backend)",
-      description: "Spring Boot Backend API for web and android as a part of degree completion",
+      description: "Spring Backend REST API for web and android for UAS Management Application",
       fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
@@ -101,7 +101,7 @@ export const PROJECTS = [
     {
       id: 3,
       title: "UAS Management Application (Frontend)",
-      description: "A web frontend and android inventory and tracking system for UAS as a part of degree completion",
+      description: "A web and android inventory and tracking system for UAS as a part of degree completion",
       fullDesc: `
       <ul>
       <li style="font-weight: bold">Project Description: </li>
@@ -247,22 +247,13 @@ export const PROJECTS = [
     {
       id: 6,
       title: "Tourist Application",
-      description: "A python web application designed for Newport City Council",
+      description: "A python web application designed for Newport City Council to help tourist find local shops",
       fullDesc: `
       <ul>
         <li>Paragraph 1: </li>
         <ul>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis urna id. Imperdiet proin fermentum leo vel orci porta non pulvinar. Tempor id eu nisl nunc mi ipsum. Amet porttitor eget dolor morbi non arcu. Ultrices gravida dictum fusce ut placerat. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Natoque penatibus et magnis dis. Aliquam eleifend mi in nulla. Turpis massa sed elementum tempus. Eu scelerisque felis imperdiet proin fermentum. Ultrices mi tempus imperdiet nulla malesuada. Nunc sed velit dignissim sodales ut eu sem. Venenatis tellus in metus vulputate eu. Quam vulputate dignissim suspendisse in est ante in nibh mauris.</li>
         </ul>
-       
-        <li>Paragraph 2:</li>
-        <ul>
-          <li>Sagittis vitae et leo duis. Tempor orci eu lobortis elementum nibh. Risus quis varius quam quisque id diam. Amet cursus sit amet dictum sit amet. Ante metus dictum at tempor commodo ullamcorper a lacus. Tellus in hac habitasse platea dictumst. In hac habitasse platea dictumst vestibulum rhoncus est. Elementum tempus egestas sed sed risus. Nunc sed id semper risus in hendrerit. Tincidunt lobortis feugiat vivamus at augue.</li>
-        </ul>
-
-        <li>Paragraph 3:</li>
-        <ul>
-        <li>Sapien eget mi proin sed libero enim sed. Urna porttitor rhoncus dolor purus. Pellentesque dignissim enim sit amet venenatis urna. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Quam id leo in vitae. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A diam sollicitudin tempor id eu nisl nunc. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sit amet massa vitae tortor condimentum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Feugiat in ante metus dictum. Aliquam etiam erat velit scelerisque in dictum. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Cras sed felis eget velit. Pellentesque elit eget gravida cum sociis. Ultrices dui sapien eget mi. Eget magna fermentum iaculis eu non diam phasellus. Vitae tortor condimentum lacinia quis vel.</li>
       </ul>
     `,
       
@@ -273,6 +264,6 @@ export const PROJECTS = [
         { id: 3, name: "Jinja", icon: <SiJinja /> },
         { id: 3, name: "SqLite", icon: <SiSqlite /> },
       ],
-      other: ""
+      other: "#Scrum"
     },
   ];
