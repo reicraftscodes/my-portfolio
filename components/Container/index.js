@@ -16,7 +16,7 @@ export default function Container({ children }) {
 
       <Navbar />
 
-      <main className="transition duration-300 ease-in p-3 flex justify-center dark:text-neutral-200 dark:bg-neutral-800">
+      <main className="transition duration-300 ease-in p-3 flex justify-center dark:text-neutral-200 dark:bg-gray-800">
         <div className="lg:w-[60%]">{children}</div>
       </main>
     </div>
