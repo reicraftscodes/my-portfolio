@@ -43,7 +43,7 @@ export const PROJECTS = [
           <li> - Events Calendar: Display a calendar featuring upcoming events, webinars, and workshops related to programming and UX/UI design that are accessible to the deaf and hard-of-hearing community.</li>
           <li> - Community Spotlight: Showcase success stories, projects, and achievements within the CoDeaf community to inspire and motivate learners.</li>
           <li> - Contact and Support: Include a contact page with support information for users to ask questions or seek assistance.</li>
-          <li> - ducational Resources: Compile a curated list of accessible programming and UX/UI design resources, including tutorials, articles, and videos. Ensure content is presented in a way that is accessible to the deaf and hard-of-hearing community.</li>
+          <li> - Educational Resources: Compile a curated list of accessible programming and UX/UI design resources, including tutorials, articles, and videos. Ensure content is presented in a way that is accessible to the deaf and hard-of-hearing community.</li>
         </ul>
         <br>
         <li style="font-weight: bold">Technologies: </li>
@@ -212,7 +212,7 @@ export const PROJECTS = [
         <li> A Spring boot skill-sharing web platform designed for employees of the Office of National Statistics that enables them to provide and seek assistance on issues relevant to the topics they choose.</li>
       </ul>
       <br>
-      <li>Client: <a style="text-decoration: underline;" href="https://www.newport.gov.uk/en/Home.aspx" target="_blank">Newport City Council </a> </li>
+      <li>Client: <a style="text-decoration: underline;" href="https://www.ons.gov.uk/" target="_blank">Office for National Statistics </a> </li>
       <br>
       <br>
       <p> In the development of inventory and tracking system for skill-sharing web app, we employed the Agile Scrum framework to ensure a flexible and collaborative approach </p>
@@ -352,7 +352,7 @@ export const PROJECTS = [
         <li>A website that allows visitors or tourists from Newport to find the nearest shops or local business by category</li>
       </ul>
       <br>
-      <li>Client: <a style="text-decoration: underline;" href="https://www.newport.gov.uk/en/Home.aspx target="_blank"" target="_blank">Newport City Council</a> </li>
+      <li>Client: <a style="text-decoration: underline;" href="https://www.newport.gov.uk/en/Home.aspx" target="_blank">Newport City Council</a> </li>
       <br>
       <p> In the development of Tourist Python web application for Newport City Council, we employed the Agile Scrum framework to ensure a flexible and collaborative approach </p>
       <br>
