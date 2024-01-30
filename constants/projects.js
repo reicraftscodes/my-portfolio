@@ -57,7 +57,7 @@ export const PROJECTS = [
         { id: 2, name: "React.js",icon: <GrReactjs /> },
         { id: 3, name: "Vercel ", icon: <SiVercel /> },
       ],
-      other: ""
+      other: "#Portfolio"
     },
     {
       id: 2,
@@ -93,11 +93,12 @@ export const PROJECTS = [
       
       image: "/images/codeaf.jpg",
       techs: [
-        { id: 1, name: "Figma",icon: <FaFigma /> },
-        { id: 2, name: "React.js",icon: <GrReactjs /> },
-        { id: 3, name: "Java", icon: <FaJava/> },
+        { id: 1, name: "React.js",icon: <GrReactjs /> },
+        { id: 2, name: "Java", icon: <FaJava/> },
+        { id: 3, name: "Spring", icon: <SiSpring/> },
+
       ],
-      other: "ONGOING PROJECT"
+      other: "#TechCommunity"
     },
     {
       id: 3,
@@ -149,7 +150,7 @@ export const PROJECTS = [
         { id: 5, name: "Heroku", icon: <SiHeroku /> },
         { id: 6, name: "Postman", icon: <SiPostman  /> },
       ],
-      other: "#Unit testing #Integration Test #TDD #BDD"
+      other: "#Unit-testing #Integration-Testing #TDD #BDD"
     },
     {
       id: 4,
@@ -424,6 +425,6 @@ export const PROJECTS = [
         { id: 3, name: "Jinja", icon: <SiJinja /> },
         { id: 3, name: "SqLite", icon: <SiSqlite /> },
       ],
-      other: "#Scrum"
+      other: ""
     },
   ];
