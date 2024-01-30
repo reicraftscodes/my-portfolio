@@ -25,14 +25,14 @@ export const PROJECTS = [
     {
       id: 1,
       title: "CoDeaf Tech Community",
-      description: " A CoDeaf is a web-based platform designed for hard of hearing and deaf community",
+      description: " A CoDeaf is a web-based tech platform for deaf & hard of hearing ",
       fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
         <p>A CoDeaf is a web-based platform designed to inspire and empower the deaf and hard-of-hearing community to learn programming and UX/UI design </p>
         <br>
         <li> The project is still in Figma UI design phase </li>
-        <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://www.figma.com/file/us1r7fPWHNPcGV6muMG4dB/CoDeaf?type=design&node-id=0%3A1&mode=design&t=o40kTxaPLJfD293u-1t"> Figma url </a> </li>
+        <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://www.figma.com/file/us1r7fPWHNPcGV6muMG4dB/CoDeaf?type=design&node-id=0%3A1&mode=design&t=o40kTxaPLJfD293u-1t" target="_blank"> Figma url </a> </li>
 
         <br>
         <li style="font-weight: bold">Technologies: </li>
@@ -65,7 +65,11 @@ export const PROJECTS = [
         <br>
         <p>In the development of inventory and tracking system for unmanned aircraft, we employed the Agile Scrum framework to ensure a flexible and collaborative approach. </p>
         <br>
-        <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management-frontend"> https://github.com/reicraftscodes/uas-lifecycle-management-frontend</a> </li>
+        <li>Client: <a style="text-decoration: underline;" href="https://www.sncmsuk.com/" target="_blank"> Sierra Nevada Corporation Mission Systems UK · (SNC MS UK)</a> </li>
+        <br>
+        <li style="font-weight: bold; "> Project Link: </li>
+
+        <li><a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management" target="_blank">https://github.com/reicraftscodes/uas-lifecycle-management</a> </li>
         <br>
         <li style="font-weight: bold">Features: </li>
         <ul>
@@ -84,7 +88,8 @@ export const PROJECTS = [
           <li> - Heroku </li>
           <li> - PostMan </li>
           <li> - Structurizr </li>
-          <li> - Adnroid development : MVVM, OkHttp, Retrofit </li>
+          <li> - Android development : MVVM, OkHttp, Retrofit </li>
+        </ul>
       </ul>
     `,
       image: "/images/uasbe.jpg",
@@ -101,7 +106,7 @@ export const PROJECTS = [
     {
       id: 3,
       title: "UAS Management Application (Frontend)",
-      description: "A web and android inventory and tracking system for UAS as a part of degree completion",
+      description: "A web and android inventory and tracking system for UAS Management App",
       fullDesc: `
       <ul>
       <li style="font-weight: bold">Project Description: </li>
@@ -112,10 +117,12 @@ export const PROJECTS = [
       <br>
       <p>In the development of inventory and tracking system for unmanned aircraft, we employed the Agile Scrum framework to ensure a flexible and collaborative approach. </p>
       <br>
+      <li>Client: <a style="text-decoration: underline;" href="https://www.sncmsuk.com/" target="_blank"> Sierra Nevada Corporation Mission Systems UK · (SNC MS UK)</a> </li>
+      <br>
       <li style="font-weight: bold; "> Project Link: </li>
       <ul>
-      <li> Web frontend repository- <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management"> https://github.com/reicraftscodes/uas-lifecycle-management</a> </li>
-      <li> Android project repository- <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management-androidt"> https://github.com/reicraftscodes/uas-lifecycle-management-android </a>  </li>
+      <li> Web frontend repository- <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management" target="_blank"> https://github.com/reicraftscodes/uas-lifecycle-management</a> </li>
+      <li> Android project repository- <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/uas-lifecycle-management-android" target="_blank"> https://github.com/reicraftscodes/uas-lifecycle-management-android </a>  </li>
       </ul>
       <br>
       <li style="font-weight: bold">Features: </li>
@@ -145,7 +152,7 @@ export const PROJECTS = [
     {
       id: 4,
       title: "ActiveBee",
-      description: " A real-time web chat application that aims for all NSA applied software engineer students",
+      description: " A real-time web chat application that aims for Cardiff university students",
       fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
@@ -155,7 +162,7 @@ export const PROJECTS = [
         <br>
         <li style="font-weight: bold; "> Project Link: </li>
         <ul>
-        <li><a style="text-decoration: underline; " href="https://github.com/reicraftscodes/web-chat-application">https://github.com/reicraftscodes/web-chat-application</a> </li>
+        <li><a style="text-decoration: underline; " href="https://github.com/reicraftscodes/web-chat-application" target="_blank">https://github.com/reicraftscodes/web-chat-application</a> </li>
         </ul>
         <br>
         <li style="font-weight: bold">Features: </li>
@@ -169,7 +176,6 @@ export const PROJECTS = [
     
         <br>
         <li style="font-weight: bold">Technologies: </li>
-        <ul>
         <li>MERN stack</li>
       </ul>
     `,
@@ -186,54 +192,45 @@ export const PROJECTS = [
     },
     {
       id: 5,
-      title: "Accu-Serve Customs Brokerage",
-      fullDesc: "The project is ongoing",
-      description: " A brokerage web application that aims to help clients with the highest quality of customs brokerage service available and to provide them innovative solutions and expertise. ",
-      fullDesc: `
-      <ul>
-        <li>Paragraph 1: </li>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis urna id. Imperdiet proin fermentum leo vel orci porta non pulvinar. Tempor id eu nisl nunc mi ipsum. Amet porttitor eget dolor morbi non arcu. Ultrices gravida dictum fusce ut placerat. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Natoque penatibus et magnis dis. Aliquam eleifend mi in nulla. Turpis massa sed elementum tempus. Eu scelerisque felis imperdiet proin fermentum. Ultrices mi tempus imperdiet nulla malesuada. Nunc sed velit dignissim sodales ut eu sem. Venenatis tellus in metus vulputate eu. Quam vulputate dignissim suspendisse in est ante in nibh mauris.</li>
-        </ul>
-       
-        <li>Paragraph 2:</li>
-        <ul>
-          <li>Sagittis vitae et leo duis. Tempor orci eu lobortis elementum nibh. Risus quis varius quam quisque id diam. Amet cursus sit amet dictum sit amet. Ante metus dictum at tempor commodo ullamcorper a lacus. Tellus in hac habitasse platea dictumst. In hac habitasse platea dictumst vestibulum rhoncus est. Elementum tempus egestas sed sed risus. Nunc sed id semper risus in hendrerit. Tincidunt lobortis feugiat vivamus at augue.</li>
-        </ul>
-
-        <li>Paragraph 3:</li>
-        <ul>
-        <li>Sapien eget mi proin sed libero enim sed. Urna porttitor rhoncus dolor purus. Pellentesque dignissim enim sit amet venenatis urna. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Quam id leo in vitae. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A diam sollicitudin tempor id eu nisl nunc. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sit amet massa vitae tortor condimentum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Feugiat in ante metus dictum. Aliquam etiam erat velit scelerisque in dictum. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Cras sed felis eget velit. Pellentesque elit eget gravida cum sociis. Ultrices dui sapien eget mi. Eget magna fermentum iaculis eu non diam phasellus. Vitae tortor condimentum lacinia quis vel.</li>
-      </ul>
-    `,
-
-      image: "/images/accuserve.jpg",
-      techs: [
-        { id: 1, name: "Wordpress",icon: <SiWordpress   /> },
-        { id: 2, name: "Php ", icon: <SiPhp  /> },
-      ],
-      other: ""
-    },
-    {
-      id: 5,
       title: "Skill-Sharing Web Application",
-      description: "A skill-sharing platform designed for employees of the Office of National Statistics that enables them to provide and seek assistance on issues relevant to the topics they choose.",
+      description: "A Spring Boot skill-sharing web app designed for employees of the ONS.",
       fullDesc: `
       <ul>
-        <li>Paragraph 1: </li>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis urna id. Imperdiet proin fermentum leo vel orci porta non pulvinar. Tempor id eu nisl nunc mi ipsum. Amet porttitor eget dolor morbi non arcu. Ultrices gravida dictum fusce ut placerat. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Natoque penatibus et magnis dis. Aliquam eleifend mi in nulla. Turpis massa sed elementum tempus. Eu scelerisque felis imperdiet proin fermentum. Ultrices mi tempus imperdiet nulla malesuada. Nunc sed velit dignissim sodales ut eu sem. Venenatis tellus in metus vulputate eu. Quam vulputate dignissim suspendisse in est ante in nibh mauris.</li>
-        </ul>
-       
-        <li>Paragraph 2:</li>
-        <ul>
-          <li>Sagittis vitae et leo duis. Tempor orci eu lobortis elementum nibh. Risus quis varius quam quisque id diam. Amet cursus sit amet dictum sit amet. Ante metus dictum at tempor commodo ullamcorper a lacus. Tellus in hac habitasse platea dictumst. In hac habitasse platea dictumst vestibulum rhoncus est. Elementum tempus egestas sed sed risus. Nunc sed id semper risus in hendrerit. Tincidunt lobortis feugiat vivamus at augue.</li>
-        </ul>
-
-        <li>Paragraph 3:</li>
-        <ul>
-        <li>Sapien eget mi proin sed libero enim sed. Urna porttitor rhoncus dolor purus. Pellentesque dignissim enim sit amet venenatis urna. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Quam id leo in vitae. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. A diam sollicitudin tempor id eu nisl nunc. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sit amet massa vitae tortor condimentum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Feugiat in ante metus dictum. Aliquam etiam erat velit scelerisque in dictum. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Cras sed felis eget velit. Pellentesque elit eget gravida cum sociis. Ultrices dui sapien eget mi. Eget magna fermentum iaculis eu non diam phasellus. Vitae tortor condimentum lacinia quis vel.</li>
+      <li style="font-weight: bold">Project Description: </li>
+      <ul>
+        <li> A Spring boot skill-sharing web platform designed for employees of the Office of National Statistics that enables them to provide and seek assistance on issues relevant to the topics they choose.</li>
       </ul>
+      <br>
+      <li>Client: <a style="text-decoration: underline;" href="https://www.newport.gov.uk/en/Home.aspx" target="_blank">Newport City Council· (SNC MS UK)</a> </li>
+      <br>
+      <br>
+      <p> In the development of inventory and tracking system for skill-sharing web app, we employed the Agile Scrum framework to ensure a flexible and collaborative approach </p>
+      <br>
+      <li style="font-weight: bold; "> Project Link: </li>
+      <ul>
+      <li><a style="text-decoration: underline; " href="https://github.com/reicraftscodes/ons_group2" target="_blank">https://github.com/reicraftscodes/ons_group2</a> </li>
+      </ul>
+      <br>
+      <li style="font-weight: bold">Features: </li>
+        <ul>
+          <li> - User Authentication: Users can create accounts, log in securely, and manage their profiles within the skill-sharing platform.Also user can change their password anytime</li>
+          <li> - Profile Management: Users can edit their profiles, add a bio, and update their skills to reflect their expertise.</li>
+          <li> - Skill Listing: Employers can list their expertise or skills, indicating areas where they can offer help to others.  </li>
+          <li> - Help Requests: Users can post requests for help on specific topics, and others can respond to offer assistance.</li>
+          <li> - Notification System: Users receive notifications for new help requests, responses, and messages to stay informed.</li>
+          <li> - User Dashboard: A personalised dashboard displays relevant information, such as ongoing help requests and recent messages.</li>
+          <li> - Categories and Tags: Skills and help requests can be categorized and tagged, enhancing the search and discovery process. </li>
+          <li> - Availability Status: Users can set their availability status to indicate when they are open to offering or receiving help. </li>
+        </ul>
+      <br>
+      <li style="font-weight: bold">Technologies: </li>
+      <ul>
+          <li> - Java, Spring, Spring Web JPA Security, Junit5, Mockito </li>
+          <li> - Thymeleaf, Bootstrap CSS </li>
+          <li> - MariaDB </li>
+          <li> - RedHat OpenShift, NginX, Terraform </li>
+      </ul>
+    </ul>
     `,
       image: "/images/ons.jpg",
       techs: [
@@ -246,15 +243,130 @@ export const PROJECTS = [
     },
     {
       id: 6,
-      title: "Tourist Application",
-      description: "A python web application designed for Newport City Council to help tourist find local shops",
+      title: "Charity Giving",
+      description: "A web app for donating to UK charities, tracking and reaching total monetary target",
       fullDesc: `
       <ul>
-        <li>Paragraph 1: </li>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis urna id. Imperdiet proin fermentum leo vel orci porta non pulvinar. Tempor id eu nisl nunc mi ipsum. Amet porttitor eget dolor morbi non arcu. Ultrices gravida dictum fusce ut placerat. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Natoque penatibus et magnis dis. Aliquam eleifend mi in nulla. Turpis massa sed elementum tempus. Eu scelerisque felis imperdiet proin fermentum. Ultrices mi tempus imperdiet nulla malesuada. Nunc sed velit dignissim sodales ut eu sem. Venenatis tellus in metus vulputate eu. Quam vulputate dignissim suspendisse in est ante in nibh mauris.</li>
-        </ul>
+      <li style="font-weight: bold">Project Description: </li>
+      <ul>
+        <li> A Spring boot web application that aims to donate different charities across the United Kingdom and track the total target money donation.</li>
       </ul>
+      <br>
+      <li style="font-weight: bold; "> Project Link: </li>
+      <ul>
+      <li><a style="text-decoration: underline; " href="https://github.com/reicraftscodes/springboot-charity-app" target="_blank">https://github.com/reicraftscodes/springboot-charity-app</a> </li>
+      </ul>
+      <br>
+      <li style="font-weight: bold">Features: </li>
+      <ul>
+        <li> - Donation Functionality: Users can make monetary donations to their chosen charities directly through the platform.</li>
+        <li> - Fundraising Campaigns: Users can sponsor individuals or groups participating in charity runs, walks, or other fundraising events. </li>
+        <li> - Charity Listings: Users can explore a list of registered charities in the UK and view details about each organization.</li>
+        <li> - Leaderboard: A leaderboard showcases top donors or sponsors, encouraging friendly competition for fundraising efforts.</li>
+        <li> - Real-time Updates: The platform provides real-time updates on fundraising progress and milestones. </li>
+        <li> - Search Functionality: Users can search for specific charities.</li>
+      </ul>
+  
+      <br>
+      <li style="font-weight: bold">Technologies: </li>
+      <ul>
+          <li> - Java, Thymeleaf, Spring JDBC , Junit5, Mockito </li>
+          <li> - PostMan </li>
+          <li> - MariaDB </li>
+          <li> - RedHat OpenShift, NginX, Terraform </li>
+        </ul>
+    </ul>
+    `,
+      image: "/images/charitygiving.jpg",
+      techs: [
+        { id: 1, name: "Java", icon: <FaJava/> },
+        { id: 2, name: "Spring", icon: <SiSpring /> },
+        { id: 3, name: "Thymeleaf", icon: <SiThymeleaf  /> },
+        { id: 4, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
+      ],
+      other: "#Spring MVC #Mockito #Unit Testing"
+    },
+    {
+      id: 7,
+      title: "Accu-Serve Customs Brokerage",
+      description: "A custom brokerage web app providing clients with top-notch services ",
+      fullDesc: `
+      <ul>
+        <li style="font-weight: bold">Project Description: </li>
+        <ul>
+          <li>A brokerage web application that aims to help clients with the highest quality of customs brokerage service available and to provide them innovative solutions and expertise.</li>
+        </ul>
+        <br>
+        <li>Client: <a style="text-decoration: underline;">ASCBIPH</a> </li>
+        <br>
+        <li style="font-weight: bold; "> Project Link: </li>
+        <ul>
+        <li>Website: <a style="text-decoration: underline; " href="https://ascbiph.com/" target="_blank"> https://ascbiph.com/</a> </li>
+        </ul>
+        <br>
+        <li style="font-weight: bold">Features: </li>
+        <ul>
+          <li>- Homepage website showcasing company mission, areas of operation, services, and contact information</li>
+          <li>- Website loads in 1.0 – 1.75 Seconds. Grade A in GTmetrix with 96 – 99% performance and structure</li>
+          <li>- Contact form with email integration to help the business collect inquiries from prospective clients (</li>
+          <li>- Google maps integration to locate the business.</li>
+          <li>- Floating Facebook chat integration to connect with clients</li>
+          <li>- Google Analytics integration to give the company insights on customer interests and trends. Know more about target demographics and monitor visitor count.</li>
+          <li>- Integrated anti spam plugins (Jetpack and Akismet). </li>
+          <li>- Improved website SEO using Yoast SEO Plugin. </li>
+          <li>- Integrated All In One Migration to help them migrate the website easily to another hosting website. </li>
+          <li></li>
+        </ul>
+        <br>
+        <li style="font-weight: bold">Technologies: </li>
+        <li>Wordpress, PHP </li>
+      </ul>
+    </ul>
+    `,
+      image: "/images/accuserve.jpg",
+      techs: [
+        { id: 1, name: "Wordpress",icon: <SiWordpress   /> },
+        { id: 2, name: "Php ", icon: <SiPhp  /> },
+      ],
+      other: ""
+    },
+    {
+      id: 8,
+      title: "Tourist Application",
+      description: "A python web application designed for visitors tourist find local shops",
+      fullDesc: `
+      <ul>
+      <li style="font-weight: bold">Project Description: </li>
+      <ul>
+        <li>A website that allows visitors or tourists from Newport to find the nearest shops or local business by category</li>
+      </ul>
+      <br>
+      <li>Client: <a style="text-decoration: underline;" href="https://www.newport.gov.uk/en/Home.aspx target="_blank"" target="_blank">Newport City Council</a> </li>
+      <br>
+      <p> In the development of Tourist Python web application for Newport City Council, we employed the Agile Scrum framework to ensure a flexible and collaborative approach </p>
+      <br>
+      <li style="font-weight: bold; "> Project Link: </li>
+      <ul>
+      <li><a style="text-decoration: underline; " href="https://github.com/reicraftscodes/newport-business-website" target="_blank"> https://github.com/reicraftscodes/newport-business-website</a> </li>
+      </ul>
+      <br>
+      <li style="font-weight: bold">Features: </li>
+      <ul>
+        <li> - Location-Based Shop Finder: Implemented a basic search or map functionality that allows users to find the nearest shops or local businesses based on their current location in Newport.</li>
+        <li> - Category-Based Business Directory: Provided a categorised directory of local businesses in Newport, making it easy for visitors to explore different types of shops and services.</li>
+        <li> - Admin Dashboard integration: Provide administrators with a dashboard to manage business listings, events, and user interactions. </li>
+        <li> - Event Calendar: Included a simple event calendar that showcases upcoming events happening in Newport, enabling tourists to plan their visit around local activities</li>
+        <li> - Search Functionality: Implemented a search bar to allow users to find specific shops, businesses, or events within Newport.</li>
+        <li> - Location Information: Displayed essential information for each shop or business, including address, contact details, and brief descriptions to help visitors make informed decisions. </li>
+        <li> - Social Media Integration: This enables users to share their discoveries or upcoming events on social media platforms to encourage word-of-mouth recommendations.</li>
+        <li> - Accessibility Features: Ensure the website adheres to accessibility standards, making it usable for individuals with disabilities. </li>
+      </ul>
+      <br>
+      <li style="font-weight: bold">Technologies: </li>
+      <li> - Python, Flask, Jinja</li>
+      <li> - SQLite3 DB</li>
+      <li> - Bootstrap CSS </li>
+    </ul>
     `,
       
       image: "/images/newportweb.jpg",

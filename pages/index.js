@@ -45,7 +45,7 @@ export default function Home() {
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/about</h2>
         <p>
-        Hi, I&apos;m Laurate a software engineer based in the UK and Cardiff University graduate residing in the UK. I&apos;m proudly deaf, self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of software designs, development, and testing.
+        Hi, I&apos;m Laurate a software engineer based in the UK and Cardiff University graduate. I&apos;m proudly deaf, self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of software designs, development, and testing.
         </p>
         <p>
           Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring, but I am open to any opportunities and always willing to learn!
@@ -81,9 +81,13 @@ export default function Home() {
               className="flex items-center gap-5 justify-center border border-neutral-500 dark:border-amber-50 p-4"
               data-tip={project.title}
             >
-              <a href={project.link} onClick={() => openModal(project)}><img src={project.image} className="max-w-full h-auto" /></a>
-              <div>
-                <p className="font-bold text-lg">{project.title}</p>
+              <a href={project.link} onClick={() => openModal(project)}>
+              <div className="flex">
+                <img src={project.image} className="flex-shrink w-70 h-50 object-cover" />
+                </div>  
+              </a>
+              <div >
+                <p className="font-bold text-base">{project.title}</p>
                 <small>{project.description}</small>
 
                 <div className="flex items-center gap-1 mt-2">
