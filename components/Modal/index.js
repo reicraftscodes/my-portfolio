@@ -42,7 +42,7 @@ const ProjectModal = ({ project, onClose }) => {
           {/* Render fullDesc as HTML with line breaks and bullet points */}
           <div dangerouslySetInnerHTML={{ __html: project.fullDesc }}></div>
         </div>
-        <div class="border-t dark:border-gray-600"> </div>
+        <div className="border-t dark:border-gray-600"> </div>
          {/* Close button */}
          <button
           className="mt-4 px-4 py-2 bg-gray-500 hover:bg-gray-700  text-white rounded-md cursor-pointer"
