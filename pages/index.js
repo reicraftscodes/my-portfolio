@@ -83,7 +83,9 @@ export default function Home() {
             >
               <a href={project.link} onClick={() => openModal(project)}>
               <div className="flex">
-                <img src={project.image} className="flex-shrink w-70 h-50 object-cover" />
+                <picture>
+                  <img src={project.image} className="flex-shrink w-70 h-50 object-cover" alt="Project cover" />
+                </picture>
                 </div>  
               </a>
               <div >
