@@ -29,11 +29,22 @@ export const PROJECTS = [
       fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
-        <p>A CoDeaf is a web-based platform designed to inspire and empower the deaf and hard-of-hearing community to learn programming and UX/UI design </p>
+        <p>A CoDeaf is a web-based platform designed to inspire and empower the deaf and hard-of-hearing community to learn programming and UX/UI design.  </p>
         <br>
         <li> The project is still in Figma UI design phase </li>
         <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://www.figma.com/file/us1r7fPWHNPcGV6muMG4dB/CoDeaf?type=design&node-id=0%3A1&mode=design&t=o40kTxaPLJfD293u-1t" target="_blank"> Figma url </a> </li>
-
+        <br>
+        <li style="font-weight: bold">Features: </li>
+        <li>Here are some possible features that I would like to implement</li>
+        <br>
+        <ul>
+          <li> - Welcome Page: Create a welcoming landing page introducing the mission and purpose of CoDeaf, providing an overview of what the platform offers.</li>
+          <li> - Tips and Tricks Section: Provide a section with practical tips and tricks for learning programming and design, specifically tailored to the needs of individuals with hearing impairments </li>
+          <li> - Events Calendar: Display a calendar featuring upcoming events, webinars, and workshops related to programming and UX/UI design that are accessible to the deaf and hard-of-hearing community.</li>
+          <li> - Community Spotlight: Showcase success stories, projects, and achievements within the CoDeaf community to inspire and motivate learners.</li>
+          <li> - Contact and Support: Include a contact page with support information for users to ask questions or seek assistance.</li>
+          <li> - ducational Resources: Compile a curated list of accessible programming and UX/UI design resources, including tutorials, articles, and videos. Ensure content is presented in a way that is accessible to the deaf and hard-of-hearing community.</li>
+        </ul>
         <br>
         <li style="font-weight: bold">Technologies: </li>
         <ul>
@@ -201,7 +212,7 @@ export const PROJECTS = [
         <li> A Spring boot skill-sharing web platform designed for employees of the Office of National Statistics that enables them to provide and seek assistance on issues relevant to the topics they choose.</li>
       </ul>
       <br>
-      <li>Client: <a style="text-decoration: underline;" href="https://www.newport.gov.uk/en/Home.aspx" target="_blank">Newport City Council· (SNC MS UK)</a> </li>
+      <li>Client: <a style="text-decoration: underline;" href="https://www.newport.gov.uk/en/Home.aspx" target="_blank">Newport City Council </a> </li>
       <br>
       <br>
       <p> In the development of inventory and tracking system for skill-sharing web app, we employed the Agile Scrum framework to ensure a flexible and collaborative approach </p>
