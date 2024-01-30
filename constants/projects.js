@@ -18,12 +18,49 @@ import {
   SiPython,
   SiFlask,
   SiJinja,
-  SiSqlite 
+  SiSqlite, 
+  SiNextdotjs,
+  SiVercel
 } from "react-icons/si"
 
 export const PROJECTS = [
     {
       id: 1,
+      title: "LMS Portfolio",
+      description: " A LMS Portfolio website containing the cool stuff I have worked on ",
+      fullDesc: `
+      <ul>
+        <li style="font-weight: bold">Project Description: </li>
+        <p> The LMS Portfolio is personal portfolio website of mine where I proudly display a diverse range of projects, highlighting my skills, and make it easy for you to get in touch by providing my contact information all in one convenient place for your exploration. </p>
+        <br>
+        <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/my-portfolio" target="_blank"> https://github.com/reicraftscodes/my-portfolio</a> </li>
+        <br>
+        <li style="font-weight: bold">Features: </li>
+        <li>Here are some possible features that I would like to implement</li>
+        <br>
+        <ul>
+          <li> - Dark Mode and Light Mode: Implemented a visually appealing and user-friendly interface with the option to switch between dark and light modes to enhance user experience based on personal preferences. </li>
+          <li> - Responsive Design: Ensured the website is responsive and adapts seamlessly to different screen sizes and devices, providing a consistent and optimized experience for users on desktops, tablets, and mobile devices.</li>
+          <li> - Smooth Navigation: Implemented an intuitive navigation system, allowing users to effortlessly explore the various sections of the website, enhancing the overall accessibility and user experience.</li>
+         </ul>
+        <br>
+        <li style="font-weight: bold">Technologies: </li>
+        <ul>
+          <li> - Next.js </li>
+          <li> - React.js </li>
+          <li> - Vercel for deployment </li>
+      </ul>
+    `,
+      image: "/images/portfolio.jpg",
+      techs: [
+        { id: 1, name: "Next.js ",icon: <SiNextdotjs  /> },
+        { id: 2, name: "React.js",icon: <GrReactjs /> },
+        { id: 3, name: "Vercel ", icon: <SiVercel /> },
+      ],
+      other: ""
+    },
+    {
+      id: 2,
       title: "CoDeaf Tech Community",
       description: " A CoDeaf is a web-based tech platform for deaf & hard of hearing ",
       fullDesc: `
@@ -63,7 +100,7 @@ export const PROJECTS = [
       other: "ONGOING PROJECT"
     },
     {
-      id: 2,
+      id: 3,
       title: "UAS Management Application (Backend)",
       description: "Spring Backend REST API for web and android for UAS Management Application",
       fullDesc: `
@@ -115,7 +152,7 @@ export const PROJECTS = [
       other: "#Unit testing #Integration Test #TDD #BDD"
     },
     {
-      id: 3,
+      id: 4,
       title: "UAS Management Application (Frontend)",
       description: "A web and android inventory and tracking system for UAS Management App",
       fullDesc: `
@@ -161,7 +198,7 @@ export const PROJECTS = [
       other: "#End-to-end Testing #BDD"
     },
     {
-      id: 4,
+      id: 5,
       title: "ActiveBee",
       description: " A real-time web chat application that aims for Cardiff university students",
       fullDesc: `
@@ -202,7 +239,7 @@ export const PROJECTS = [
       other: "#End-to-end Testing"
     },
     {
-      id: 5,
+      id: 6,
       title: "Skill-Sharing Web Application",
       description: "A Spring Boot skill-sharing web app designed for employees of the ONS.",
       fullDesc: `
@@ -253,7 +290,7 @@ export const PROJECTS = [
       other: "#Spring MVC #Mockito #Unit Testing"
     },
     {
-      id: 6,
+      id: 7,
       title: "Charity Giving",
       description: "A web app for donating to UK charities, tracking and reaching total monetary target",
       fullDesc: `
@@ -298,7 +335,7 @@ export const PROJECTS = [
       other: "#Spring MVC #Mockito #Unit Testing"
     },
     {
-      id: 7,
+      id: 8,
       title: "Accu-Serve Customs Brokerage",
       description: "A custom brokerage web app providing clients with top-notch services ",
       fullDesc: `
@@ -342,7 +379,7 @@ export const PROJECTS = [
       other: ""
     },
     {
-      id: 8,
+      id: 9,
       title: "Tourist Application",
       description: "A python web application designed for visitors tourist find local shops",
       fullDesc: `
