@@ -26,7 +26,7 @@ export default function Home() {
         <div>
           <p>Hi, my name is</p>
           <h1 className="font-bold text-3xl ">Laurate S.</h1>
-          <p className="text-right"> Full Stack Software Engineer & UI/UX Designer </p>
+          <p className="text-right"> Full Stack Software Engineer | UI/UX Designer </p>
           <div className="flex items-center justify-end space-x-4 mt-3">
             {PROFILE_LINKS.map((profileLink) => (
               <a
@@ -45,13 +45,13 @@ export default function Home() {
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/about</h2>
         <p>
-        Hi, I&apos;m Laurate a software engineer based in the UK and Cardiff University graduate. I&apos;m proudly deaf, self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of software designs, development, and testing.
+        Hi, I&apos;m Laurate, you can call me May. I&apos;m a a full stack software engineer based in the UK and Cardiff University graduate. I&apos;m proudly deaf, self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of software designs, development, and testing.
         </p>
         <p>
           Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring, but I am open to any opportunities and always willing to learn!
         </p>
         <p>
-          My hobbies are reading novels, acrylic painting, photography, travelling and can cook literally anything as long as I put my heart into it.
+          My hobbies include reading novels, playing online/video games, acrylic painting, photography, traveling, and cooking. I like to play drums although my right ear may be deaf, I can still play the drums. Cool right?
         </p>
       </section>
 
