@@ -49,6 +49,9 @@ export const PROJECTS = [
           <li> - Next.js </li>
           <li> - React.js </li>
           <li> - Vercel for deployment </li>
+        </ul>
+        <br>
+        <li> Published date:  JANUARY 2024 </li>
       </ul>
     `,
       image: "/images/portfolio.jpg",
@@ -63,6 +66,7 @@ export const PROJECTS = [
       id: 2,
       title: "CoDeaf Tech Community",
       description: " A CoDeaf is a web-based tech platform for deaf & hard of hearing ",
+      datePublished: "DECEMBER 2023 - PRESENT",
       fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
@@ -88,6 +92,9 @@ export const PROJECTS = [
           <li> - Next.js </li>
           <li> - React.js </li>
           <li> - Spring </li>
+        </ul>
+        <br>
+        <li> Published date: DECEMBER 2023 - PRESENT</li>
       </ul>
     `,
       
@@ -139,6 +146,8 @@ export const PROJECTS = [
           <li> - Structurizr </li>
           <li> - Android development : MVVM, OkHttp, Retrofit </li>
         </ul>
+        <br>
+        <li> Published date: DECEMBER 2021 - MARCH 2022 </li>
       </ul>
     `,
       image: "/images/uasbe.jpg",
@@ -156,6 +165,7 @@ export const PROJECTS = [
       id: 4,
       title: "UAS Management Application (Frontend)",
       description: "A web and android inventory and tracking system for UAS Management App",
+      datePublished: "DECEMBER 2021 - MARCH 2022",
       fullDesc: `
       <ul>
       <li style="font-weight: bold">Project Description: </li>
@@ -185,6 +195,9 @@ export const PROJECTS = [
         <li> - Material UI Components </li>
         <li> - Cypress for end-to-end testing</li>
         <li> - Adnroid development </li>
+      </ul>
+      <br>
+      <li> Published date: DECEMBER 2021 - MARCH 2022 </li>
     </ul>
   `,
       image: "/images/uasweb.jpg",
@@ -226,6 +239,9 @@ export const PROJECTS = [
         <br>
         <li style="font-weight: bold">Technologies: </li>
         <li>MERN stack</li>
+        </ul>
+        <br>
+        <li> Published date: OCTOBER 2020 - JANUARY 2021 </li>
       </ul>
     `,
       image: "/images/activebee.jpg",
@@ -279,6 +295,8 @@ export const PROJECTS = [
           <li> - MariaDB </li>
           <li> - RedHat OpenShift, NginX, Terraform </li>
       </ul>
+      <br>
+        <li> Published date: OCTOBER 2019 - DECEMBER 2019 </li>
     </ul>
     `,
       image: "/images/ons.jpg",
@@ -323,7 +341,9 @@ export const PROJECTS = [
           <li> - PostMan </li>
           <li> - MariaDB </li>
           <li> - RedHat OpenShift, NginX, Terraform </li>
-        </ul>
+      </ul>
+      <br>
+      <li> Published date:  SEPMTEBER 2019 - NOVEMBER 2019"</li>
     </ul>
     `,
       image: "/images/charitygiving.jpg",
@@ -339,6 +359,7 @@ export const PROJECTS = [
       id: 8,
       title: "Accu-Serve Customs Brokerage",
       description: "A custom brokerage web app providing clients with top-notch services ",
+      datePublished: "2019",
       fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
@@ -369,6 +390,8 @@ export const PROJECTS = [
         <br>
         <li style="font-weight: bold">Technologies: </li>
         <li>Wordpress, PHP </li>
+        <br>
+        <li> Published date: 2019</li>
       </ul>
     </ul>
     `,
@@ -415,6 +438,9 @@ export const PROJECTS = [
       <li> - Python, Flask, Jinja</li>
       <li> - SQLite3 DB</li>
       <li> - Bootstrap CSS </li>
+      <br>
+      <li> Published date: OCTOBER 2016 - DECEMBER 2016
+      </li>
     </ul>
     `,
       
