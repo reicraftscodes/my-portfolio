@@ -18,9 +18,9 @@ Yes, you can fork this repo :)
     ```
 3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-4. Edit your information
+4. Edit source code, navigate to: 
 -  ./constants folder : profile links, projects, and skills
--  ./pages folder : if you want to replace all information with your own
+-  ./pages/index.js  : main page
 ## 🚀 Deploying app on Vercel
 
 The easiest way to deploy Next.js app is to use the Vercel Platform from the creators of Next.js.
