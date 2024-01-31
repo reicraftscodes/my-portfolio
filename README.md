@@ -1,5 +1,3 @@
-### TL;DR
-
 Yes, you can fork this repo :) 
 
 ## 🛠 Installation & Set Up
@@ -29,14 +27,26 @@ The easiest way to deploy Next.js app is to use the Vercel Platform from the cre
 1. Visit the Vercel website here at [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
 
 2. As you can see you're being ask to import Git Repository, what you can do is press Continue with Github
-![External images](https://imgur.com/ICpBWfs)
+<div align="center">
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/1.png" />
+</div>
 3. Import your project repository and then next.
-![External images](https://imgur.com/pbLVeCU)
+<div align="center">
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/2.png" />
+</div>
 4. Hit Deploy button
-![External images](https://imgur.com/IdBkD9Z)
+<div align="center">
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/3.png" />
+</div>
 5. Wait until vercel deploy your app
-![External images](https://imgur.com/6ho6y5k)
+<div align="center">
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/4.png" />
+</div>
 6. When the deployment is successful, you will something like this
-![External images](https://imgur.com/XG2ts2j)
+<div align="center">
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/5.png" />
+</div>
 7. If you want to change your project domain, go to Settings -> Domains 
-![External images](https://imgur.com/EgtdsYS)
+<div align="center">
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/6.png" />
+</div>
