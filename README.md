@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img alt="Logo" src="https://github.com/reicraftscodes/reicraftscodes.github.io/blob/master/src/images/logo.png" width="100" />
+</div>
+<h1 align="center">
+  Portfolio Website Version
+</h1>
+<p align="center">
+Portfolio template is a forked from <a href="https://github.com/chandrikadeb7/chandrikadeb7.github.io" target="_blank">https://github.com/chandrikadeb7/chandrikadeb7.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>.
+</p>
 
-## Getting Started
+<div align="center">
+  <img alt="Demo" src="https://github.com/reicraftscodes/reicraftscodes.github.io/blob/master/src/images/demo.png" />
+</div>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### TL;DR
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Yes, you can fork this repo :) 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🛠 Installation & Set Up
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Install Node then go to your IDE  CLI and type
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   ```sh
+   npm install 
+   ```
 
-## Learn More
+2. Run the development server
 
-To learn more about Next.js, take a look at the following resources:
+   
+    ```bash
+    npm run dev
+    ```
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Edit your information
+-  ./constants folder : profile links, projects, and skills it can be found on the
+-  ./constants folder : profile links, projects, and skills it can be found on the  
+## 🚀 Deploying app on Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The easiest way to deploy Next.js app is to use the Vercel Platform from the creators of Next.js.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Visit the Vercel website here at [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. As you can see you're being ask to import Git Repository, what you can do is press Continue with Github
+![External images](https://imgur.com/ICpBWfs)
+3. Import your project repository and then next.
+![External images](https://imgur.com/pbLVeCU)
+4. Hit Deploy button
+![External images](https://imgur.com/IdBkD9Z)
+5. Wait until vercel deploy your app
+![External images](https://imgur.com/6ho6y5k)
+6. When the deployment is successful, you will something like this
+![External images](https://imgur.com/XG2ts2j)
+7. If you want to change your project domain, go to Settings -> Domains 
+![External images](https://imgur.com/EgtdsYS)
