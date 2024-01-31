@@ -1,3 +1,5 @@
+
+# LMS Portfolio Documentation
 Yes, you can fork this repo :) 
 
 ## 🛠 Installation & Set Up
@@ -17,8 +19,8 @@ Yes, you can fork this repo :)
 3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 4. Edit your information
--  ./constants folder : profile links, projects, and skills it can be found on the
--  ./constants folder : profile links, projects, and skills it can be found on the  
+-  ./constants folder : profile links, projects, and skills
+-  ./pages folder : if you want to replace all information with your own
 ## 🚀 Deploying app on Vercel
 
 The easiest way to deploy Next.js app is to use the Vercel Platform from the creators of Next.js.
