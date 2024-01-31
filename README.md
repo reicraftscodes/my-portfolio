@@ -1,18 +1,3 @@
-<div align="center">
-  <img alt="Logo" src="https://github.com/reicraftscodes/reicraftscodes.github.io/blob/master/src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  Portfolio Website Version
-</h1>
-<p align="center">
-Portfolio template is a forked from <a href="https://github.com/chandrikadeb7/chandrikadeb7.github.io" target="_blank">https://github.com/chandrikadeb7/chandrikadeb7.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>.
-</p>
-
-<div align="center">
-  <img alt="Demo" src="https://github.com/reicraftscodes/reicraftscodes.github.io/blob/master/src/images/demo.png" />
-</div>
-
-
 ### TL;DR
 
 Yes, you can fork this repo :) 
