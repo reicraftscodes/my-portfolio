@@ -30,7 +30,7 @@ const BlogPost = () => {
                 <main className='transition duration-300 ease-in p-3 flex justify-center w-full'>
                     <section className="w-full flex items-center justify-center ">
                         <div>
-                            <button onClick={() => router.back()} className=" text-left text-blue-500 hover:underline cursor-pointer w-full flex">
+                            <button onClick={() => router.back()} className=" text-left text-blue-500 hover:underline cursor-pointer w-full flex  p-3">
                                 Back to home
                             </button>
                             <h1 className="font-bold text-3xl text-center p-3">{blogPost.title}</h1>
