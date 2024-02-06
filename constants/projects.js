@@ -1,5 +1,5 @@
 import { GrReactjs } from "react-icons/gr";
-import { FaJava, FaNodeJs, FaBootstrap, FaFigma} from "react-icons/fa";
+import { FaJava, FaNodeJs, FaBootstrap, FaFigma } from "react-icons/fa";
 import {
   SiRedux,
   SiHeroku,
@@ -11,24 +11,24 @@ import {
   SiMysql,
   SiPostman,
   SiJest,
-  SiMongodb, 
+  SiMongodb,
   SiPhp,
   SiWordpress,
   SiThymeleaf,
   SiPython,
   SiFlask,
   SiJinja,
-  SiSqlite, 
+  SiSqlite,
   SiNextdotjs,
   SiVercel
 } from "react-icons/si"
 
 export const PROJECTS = [
-    {
-      id: 1,
-      title: "LMS Portfolio",
-      description: " A LMS Portfolio website containing the cool stuff I have worked on ",
-      fullDesc: `
+  {
+    id: 1,
+    title: "LMS Portfolio",
+    description: " A LMS Portfolio website containing the cool stuff I have worked on ",
+    fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
         <p> The LMS Portfolio is personal portfolio website of mine where I proudly display a diverse range of projects, highlighting my skills, and make it easy for you to get in touch by providing my contact information all in one convenient place for your exploration. </p>
@@ -54,20 +54,20 @@ export const PROJECTS = [
         <li> Published date:  JANUARY 2024 </li>
       </ul>
     `,
-      image: "/images/portfolio.jpg",
-      techs: [
-        { id: 1, name: "Next.js ",icon: <SiNextdotjs  /> },
-        { id: 2, name: "React.js",icon: <GrReactjs /> },
-        { id: 3, name: "Vercel ", icon: <SiVercel /> },
-      ],
-      other: "#Portfolio"
-    },
-    {
-      id: 2,
-      title: "CoDeaf Tech Community",
-      description: " A CoDeaf is a web-based tech platform for deaf & hard of hearing ",
-      datePublished: "DECEMBER 2023 - PRESENT",
-      fullDesc: `
+    image: "/images/portfolio.jpg",
+    techs: [
+      { id: 1, name: "Next.js ", icon: <SiNextdotjs /> },
+      { id: 2, name: "React.js", icon: <GrReactjs /> },
+      { id: 3, name: "Vercel ", icon: <SiVercel /> },
+    ],
+    other: "#Portfolio"
+  },
+  {
+    id: 2,
+    title: "CoDeaf Tech Community",
+    description: " A CoDeaf is a web-based tech platform for deaf & hard of hearing ",
+    datePublished: "DECEMBER 2023 - PRESENT",
+    fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
         <p>A CoDeaf is a web-based platform designed to inspire and empower the deaf and hard-of-hearing community to learn programming and UX/UI design.  </p>
@@ -97,21 +97,21 @@ export const PROJECTS = [
         <li> Published date: DECEMBER 2023 - PRESENT</li>
       </ul>
     `,
-      
-      image: "/images/codeaf.jpg",
-      techs: [
-        { id: 1, name: "React.js",icon: <GrReactjs /> },
-        { id: 2, name: "Java", icon: <FaJava/> },
-        { id: 3, name: "Spring", icon: <SiSpring/> },
 
-      ],
-      other: "#TechCommunity"
-    },
-    {
-      id: 3,
-      title: "UAS Management Application (Backend)",
-      description: "Spring Backend REST API for web and android for UAS Management Application",
-      fullDesc: `
+    image: "/images/codeaf.jpg",
+    techs: [
+      { id: 1, name: "React.js", icon: <GrReactjs /> },
+      { id: 2, name: "Java", icon: <FaJava /> },
+      { id: 3, name: "Spring", icon: <SiSpring /> },
+
+    ],
+    other: "#TechCommunity"
+  },
+  {
+    id: 3,
+    title: "UAS Management Application (Backend)",
+    description: "Spring Backend REST API for web and android for UAS Management Application",
+    fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
         <p> An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis. Inaddition to this,
@@ -150,23 +150,23 @@ export const PROJECTS = [
         <li> Published date: DECEMBER 2021 - MARCH 2022 </li>
       </ul>
     `,
-      image: "/images/uasbe.jpg",
-      techs: [
-        { id: 1, name: "Java", icon: <FaJava/> },
-        { id: 2, name: "Spring", icon: <SiSpring /> },
-        { id: 3, name: "Junit5", icon: <SiJunit5 /> },
-        { id: 4, name: "MySQL ", icon: <SiMysql  /> },
-        { id: 5, name: "Heroku", icon: <SiHeroku /> },
-        { id: 6, name: "Postman", icon: <SiPostman  /> },
-      ],
-      other: "#Unit-testing #Integration-Testing #TDD #BDD"
-    },
-    {
-      id: 4,
-      title: "UAS Management Application (Frontend)",
-      description: "A web and android inventory and tracking system for UAS Management App",
-      datePublished: "DECEMBER 2021 - MARCH 2022",
-      fullDesc: `
+    image: "/images/uasbe.jpg",
+    techs: [
+      { id: 1, name: "Java", icon: <FaJava /> },
+      { id: 2, name: "Spring", icon: <SiSpring /> },
+      { id: 3, name: "Junit5", icon: <SiJunit5 /> },
+      { id: 4, name: "MySQL ", icon: <SiMysql /> },
+      { id: 5, name: "Heroku", icon: <SiHeroku /> },
+      { id: 6, name: "Postman", icon: <SiPostman /> },
+    ],
+    other: "#Unit-testing #Integration-Testing #TDD #BDD"
+  },
+  {
+    id: 4,
+    title: "UAS Management Application (Frontend)",
+    description: "A web and android inventory and tracking system for UAS Management App",
+    datePublished: "DECEMBER 2021 - MARCH 2022",
+    fullDesc: `
       <ul>
       <li style="font-weight: bold">Project Description: </li>
       <p> An inventory and tracking system to track the unmanned aircraft through their lifecycle, providing access to the aircraft status, costs and fault trend analysis. Inaddition to this,
@@ -200,22 +200,22 @@ export const PROJECTS = [
       <li> Published date: DECEMBER 2021 - MARCH 2022 </li>
     </ul>
   `,
-      image: "/images/uasweb.jpg",
-      techs: [
-        { id: 1, name: "React.js",icon: <GrReactjs /> },
-        { id: 2, name: "Redux", icon: <SiRedux /> },
-        { id: 3, name: "Cypress", icon: <SiCypress /> },
-        { id: 4, name: "Heroku", icon: <SiHeroku  /> },
-        { id: 5, name: "Java", icon: <FaJava/> },
-        { id: 6, name: "Android Studio", icon: <SiAndroidstudio  /> },
-      ],
-      other: "#End-to-end Testing #BDD"
-    },
-    {
-      id: 5,
-      title: "ActiveBee",
-      description: " A real-time web chat application that aims for Cardiff university students",
-      fullDesc: `
+    image: "/images/uasweb.jpg",
+    techs: [
+      { id: 1, name: "React.js", icon: <GrReactjs /> },
+      { id: 2, name: "Redux", icon: <SiRedux /> },
+      { id: 3, name: "Cypress", icon: <SiCypress /> },
+      { id: 4, name: "Heroku", icon: <SiHeroku /> },
+      { id: 5, name: "Java", icon: <FaJava /> },
+      { id: 6, name: "Android Studio", icon: <SiAndroidstudio /> },
+    ],
+    other: "#End-to-end Testing #BDD"
+  },
+  {
+    id: 5,
+    title: "ActiveBee",
+    description: " A real-time web chat application that aims for Cardiff university students",
+    fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
         <ul>
@@ -244,22 +244,22 @@ export const PROJECTS = [
         <li> Published date: OCTOBER 2020 - JANUARY 2021 </li>
       </ul>
     `,
-      image: "/images/activebee.jpg",
-      techs: [
-        { id: 1, name: "React.js",icon: <GrReactjs /> },
-        { id: 2, name: "Node.js ", icon: <FaNodeJs  /> },
-        { id: 3, name: "Express.js", icon: <SiExpress /> },
-        { id: 4, name: "Mongodb  ", icon: <SiMongodb   /> },
-        { id: 5, name: "Jest ", icon: <SiJest /> },
-        { id: 6, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
-      ],
-      other: "#End-to-end Testing"
-    },
-    {
-      id: 6,
-      title: "Skill-Sharing Web Application",
-      description: "A Spring Boot skill-sharing web app designed for employees of the ONS.",
-      fullDesc: `
+    image: "/images/activebee.jpg",
+    techs: [
+      { id: 1, name: "React.js", icon: <GrReactjs /> },
+      { id: 2, name: "Node.js ", icon: <FaNodeJs /> },
+      { id: 3, name: "Express.js", icon: <SiExpress /> },
+      { id: 4, name: "Mongodb  ", icon: <SiMongodb /> },
+      { id: 5, name: "Jest ", icon: <SiJest /> },
+      { id: 6, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
+    ],
+    other: "#End-to-end Testing"
+  },
+  {
+    id: 6,
+    title: "Skill-Sharing Web Application",
+    description: "A Spring Boot skill-sharing web app designed for employees of the ONS.",
+    fullDesc: `
       <ul>
       <li style="font-weight: bold">Project Description: </li>
       <ul>
@@ -299,20 +299,20 @@ export const PROJECTS = [
         <li> Published date: OCTOBER 2019 - DECEMBER 2019 </li>
     </ul>
     `,
-      image: "/images/ons.jpg",
-      techs: [
-        { id: 1, name: "Java", icon: <FaJava/> },
-        { id: 2, name: "Spring", icon: <SiSpring /> },
-        { id: 3, name: "Thymeleaf", icon: <SiThymeleaf  /> },
-        { id: 4, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
-      ],
-      other: "#Spring MVC #Mockito #Unit Testing"
-    },
-    {
-      id: 7,
-      title: "Charity Giving",
-      description: "A web app for donating to UK charities, tracking and reaching total monetary target",
-      fullDesc: `
+    image: "/images/ons.jpg",
+    techs: [
+      { id: 1, name: "Java", icon: <FaJava /> },
+      { id: 2, name: "Spring", icon: <SiSpring /> },
+      { id: 3, name: "Thymeleaf", icon: <SiThymeleaf /> },
+      { id: 4, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
+    ],
+    other: "#Spring MVC #Mockito #Unit Testing"
+  },
+  {
+    id: 7,
+    title: "Charity Giving",
+    description: "A web app for donating to UK charities, tracking and reaching total monetary target",
+    fullDesc: `
       <ul>
       <li style="font-weight: bold">Project Description: </li>
       <ul>
@@ -346,21 +346,21 @@ export const PROJECTS = [
       <li> Published date:  SEPMTEBER 2019 - NOVEMBER 2019"</li>
     </ul>
     `,
-      image: "/images/charitygiving.jpg",
-      techs: [
-        { id: 1, name: "Java", icon: <FaJava/> },
-        { id: 2, name: "Spring", icon: <SiSpring /> },
-        { id: 3, name: "Thymeleaf", icon: <SiThymeleaf  /> },
-        { id: 4, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
-      ],
-      other: "#Spring MVC #Mockito #Unit Testing"
-    },
-    {
-      id: 8,
-      title: "Accu-Serve Customs Brokerage",
-      description: "A custom brokerage web app providing clients with top-notch services ",
-      datePublished: "2019",
-      fullDesc: `
+    image: "/images/charitygiving.jpg",
+    techs: [
+      { id: 1, name: "Java", icon: <FaJava /> },
+      { id: 2, name: "Spring", icon: <SiSpring /> },
+      { id: 3, name: "Thymeleaf", icon: <SiThymeleaf /> },
+      { id: 4, name: "Bootstrap CSS ", icon: <FaBootstrap /> },
+    ],
+    other: "#Spring MVC #Mockito #Unit Testing"
+  },
+  {
+    id: 8,
+    title: "Accu-Serve Customs Brokerage",
+    description: "A custom brokerage web app providing clients with top-notch services ",
+    datePublished: "2019",
+    fullDesc: `
       <ul>
         <li style="font-weight: bold">Project Description: </li>
         <ul>
@@ -395,18 +395,18 @@ export const PROJECTS = [
       </ul>
     </ul>
     `,
-      image: "/images/accuserve.jpg",
-      techs: [
-        { id: 1, name: "Wordpress",icon: <SiWordpress   /> },
-        { id: 2, name: "Php ", icon: <SiPhp  /> },
-      ],
-      other: ""
-    },
-    {
-      id: 9,
-      title: "Tourist Application",
-      description: "A python web application designed for visitors tourist find local shops",
-      fullDesc: `
+    image: "/images/accuserve.jpg",
+    techs: [
+      { id: 1, name: "Wordpress", icon: <SiWordpress /> },
+      { id: 2, name: "Php ", icon: <SiPhp /> },
+    ],
+    other: ""
+  },
+  {
+    id: 9,
+    title: "Tourist Application",
+    description: "A python web application designed for visitors tourist find local shops",
+    fullDesc: `
       <ul>
       <li style="font-weight: bold">Project Description: </li>
       <ul>
@@ -443,14 +443,14 @@ export const PROJECTS = [
       </li>
     </ul>
     `,
-      
-      image: "/images/newportweb.jpg",
-      techs: [
-        { id: 1, name: "Python", icon: <SiPython /> },
-        { id: 2, name: "Flask", icon: <SiFlask /> },
-        { id: 3, name: "Jinja", icon: <SiJinja /> },
-        { id: 3, name: "SqLite", icon: <SiSqlite /> },
-      ],
-      other: ""
-    },
-  ];
+
+    image: "/images/newportweb.jpg",
+    techs: [
+      { id: 1, name: "Python", icon: <SiPython /> },
+      { id: 2, name: "Flask", icon: <SiFlask /> },
+      { id: 3, name: "Jinja", icon: <SiJinja /> },
+      { id: 3, name: "SqLite", icon: <SiSqlite /> },
+    ],
+    other: ""
+  },
+];

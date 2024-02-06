@@ -1,7 +1,8 @@
-import { BsGithub, BsFacebook, BsInstagram, BsDribbble  } from "react-icons/bs";
+import { BsGithub, BsFacebook, BsInstagram, BsDribbble } from "react-icons/bs";
 
 export const PROFILE_LINKS = [
-  { id: 1,
+  {
+    id: 1,
     icon: <BsGithub />,
     path: "https://github.com/reicraftscodes"
   },
@@ -10,7 +11,8 @@ export const PROFILE_LINKS = [
     icon: <BsDribbble />,
     path: "https://dribbble.com/laureimei/"
   },
-  { id: 3,
+  {
+    id: 3,
     icon: <BsFacebook />,
     path: "https://www.facebook.com/BlueCloudITSolution"
   },
