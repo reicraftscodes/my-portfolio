@@ -6,6 +6,7 @@ import { TOOLS } from "../constants/tools";
 import { Tooltip } from 'react-tooltip'
 import React, { useState } from "react";
 import ProjectModal from "../components/Modal";
+import BlogList from "../components/BlogList";
 
 export default function Home() {
 
@@ -53,6 +54,13 @@ export default function Home() {
         <p>
           My hobbies include reading novels, playing online/video games, acrylic painting, photography, traveling, and cooking. I like to play drums although my right ear may be deaf, I can still play the drums. Cool right?
         </p>
+      </section>
+
+      {/* Blogging section */}
+      <section id="blog" className="space-y-4">
+        <Spacer />
+        <h2 className="text-2xl font-bold tracking-widest">/blog</h2>
+        <BlogList /> 
       </section>
 
       <section id="tools" className="space-y-4">
