@@ -1,9 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import { BLOGDATA } from "../../constants/blogTopics";
+import Link from 'next/link';
+import { BLOGDATA } from '../../constants/blogTopics';
 
 const BlogList = () => {
-
   return (
     <div>
       <ul className="space-y-4">
