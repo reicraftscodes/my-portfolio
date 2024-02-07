@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useContext } from "react";
-import DarkModeContext from "../contexts/darkMode";
-import BlogBar from "../components/BlogBar";
+import DarkModeContext from "../../contexts/darkMode";
+import BlogBar from "../BlogBar";
 
 export default function ContainerBlog({ children }) {
   const { dark } = useContext(DarkModeContext);

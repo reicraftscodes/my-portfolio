@@ -6,10 +6,7 @@ import { MDXRemote } from 'next-mdx-remote';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import Spacer from '../../components/Spacer';
-import Container from '../../components/Container';
-import BlogBar from '../../components/BlogBar';
-import ContainerBlog from '../../ContainerBlog';
-
+import ContainerBlog from '../../components/ContainerBlog';
 
 const BlogPost = ({ source, frontMatter }) => {
   const router = useRouter();
