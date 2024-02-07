@@ -7,6 +7,8 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import Spacer from '../../components/Spacer';
 import Container from '../../components/Container';
+import BlogBar from '../../components/BlogBar';
+import ContainerBlog from '../../ContainerBlog';
 
 
 const BlogPost = ({ source, frontMatter }) => {
@@ -28,9 +30,9 @@ const BlogPost = ({ source, frontMatter }) => {
   };
 
   return (
-    <Container>
+    <ContainerBlog>
+      <Spacer />
       <div className="p-3 justify-center text-center">
-        <Spacer />
         <div className="m-8 text-left">
           <button
             onClick={handleBack}
@@ -49,7 +51,7 @@ const BlogPost = ({ source, frontMatter }) => {
           </div>
         </div>
       </div>
-    </Container>
+    </ContainerBlog>
   );
 };
 
