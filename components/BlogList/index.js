@@ -7,7 +7,7 @@ const BlogList = () => {
       <ul className="space-y-4">
         {BLOGDATA.map((topic) => (
           <li key={topic.id}>
-            <Link className="text-blue-500 hover:underline" href={`/blog/${topic.id}`}>
+            <Link className="underline dark:text-neutral-200" href={`/blog/${topic.id}`}>
               {topic.title}
             </Link>
           </li>

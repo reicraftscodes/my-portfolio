@@ -7,6 +7,12 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import Spacer from '../../components/Spacer';
 import ContainerBlog from '../../components/ContainerBlog';
+import { MDXProvider } from '@mdx-js/react';
+
+const components = {
+  h1: (props) => <h1 style={{ fontSize: '2em', fontWeight: 'bold' }} {...props} />,
+  h2: (props) => <h2 style={{ fontSize: '1em', fontWeight: 'bold' }} {...props} />,
+};
 
 const BlogPost = ({ source, frontMatter }) => {
   const router = useRouter();
@@ -39,12 +45,12 @@ const BlogPost = ({ source, frontMatter }) => {
             Back to home
           </button>
         </div>
-        <div className="w-full items-center justify-center">
+        <div className="w-full items-center justify-center text-left">
           <div className="space-y-4">
-            <h1 className="font-bold text-3xl space-y-4">{frontMatter.title}</h1>
-          </div>
-          <div className="mx-auto max-w-screen-md text-left">
-            <MDXRemote {...source} />
+            {/* Render MDX content using MDXProvider */}
+            <MDXProvider components={components}>
+              <MDXRemote {...source} />
+            </MDXProvider>
           </div>
         </div>
       </div>

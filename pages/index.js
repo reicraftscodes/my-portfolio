@@ -56,13 +56,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Blogging section */}
-      <section id="blog" className="space-y-4">
-        <Spacer />
-        <h2 className="text-2xl font-bold tracking-widest">/blog</h2>
-        <BlogList />
-      </section>
-
       <section id="tools" className="space-y-4">
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/skills & technologies</h2>
@@ -128,6 +121,13 @@ export default function Home() {
             @BlueCloudITSolution
           </a>{' '} or email{' '} <a href="mailto:lauraojenas@yahoo.com" style={{ textDecoration: 'underline' }}> lauraojenas@yahoo.com </a>
         </p>
+      </section>
+
+      {/* Blogging section */}
+      <section id="blog" className="space-y-4">
+        <Spacer />
+        <h2 className="text-2xl font-bold tracking-widest">/blog</h2>
+        <BlogList />
       </section>
 
       <Spacer />

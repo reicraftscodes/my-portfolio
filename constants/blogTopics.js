@@ -1,18 +1,18 @@
 export const BLOGDATA = [
   {
     id: "1",
-    title: "Test",
+    title: "My Journey as a Hard of Hearing Software Engineer",
   },
   {
     id: "2",
-    title: "Test 2",
+    title: "Blog coming soon..",
   },
   {
     id: "3",
-    title: "Test 3",
+    title: "Blog coming soon..",
   },
   {
     id: "4",
-    title: "Test 4",
+    title: "Blog coming soon..",
   },
 ];
