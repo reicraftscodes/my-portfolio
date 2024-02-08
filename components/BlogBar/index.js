@@ -1,4 +1,5 @@
-import { useContext, useState } from "react";
+import { useRouter } from 'next/router';
+import { useContext, useState } from 'react';
 import { BiMenu } from "react-icons/bi";
 import {
   BsGithub,
@@ -9,26 +10,15 @@ import {
   BsToggleOn,
 } from "react-icons/bs";
 import DarkModeContext from "../../contexts/darkMode";
-import { useRouter } from 'next/router';
 
-
-export default function Navbar() {
+export default function BlogBar() {
   const { dark, setDark } = useContext(DarkModeContext);
   const [nav, setNav] = useState(false);
   const router = useRouter();
 
-
-  const navLinks = [
-    { id: 1, title: "About", path: "#about" },
-    { id: 2, title: "Skills", path: "#tools" },
-    { id: 3, title: "Projects", path: "#projects" },
-    { id: 4, title: "Contact", path: "#contact" },
-    { id: 5, title: "Blog", path: "#blog" },
-  ];
-
   const profileLinks = [
-    { id: 1, icon: <BsInstagram />, path: "https://www.instagram.com/bluecloud.itsolution/" },
-    { id: 2, icon: <BsGithub />, path: "https://github.com/reicraftscodes" },
+    { id: 1, icon: <BsInstagram />, path: 'https://www.instagram.com/bluecloud.itsolution/' },
+    { id: 2, icon: <BsGithub />, path: 'https://github.com/reicraftscodes' },
   ];
 
   const handleTitleClick = () => {
@@ -37,10 +27,9 @@ export default function Navbar() {
     router.push('/'); // Navigate to the home page
   };
 
-
   return (
     <nav className="transition duration-300 ease-in fixed w-full lg:grid place-items-center dark:text-neutral-200">
-      <div className="transition duration-300 ease-in lg:w-[70%] bg-amber-50 dark:bg-gray-800 h-14 py-3 px-5">
+      <div className="transition duration-300 ease-in lg:w-[70%] bg-amber-50 dark:bg-gray-800 border-b border-neutral-500 dark:border-neutral-200 h-14 py-3 px-5">
         <div className="flex items-center justify-between h-full">
           <h1
             className="uppercase tracking-widest font-bold text-xl cursor-pointer"
@@ -54,21 +43,6 @@ export default function Navbar() {
           </button>
 
           <ul className="hidden md:flex space-x-5">
-            <button
-              onClick={() => {
-                window.scrollTo(0, 0);
-                setNav(false);
-              }}
-            >
-              Home
-            </button>
-
-            {navLinks.map((navLink) => (
-              <a key={navLink.id} href={navLink.path} className="block">
-                <li onClick={() => setNav(false)}>{navLink.title}</li>
-              </a>
-            ))}
-
             <div className="flex items-center space-x-3">
               <BsSun />
               <button className="text-xl" onClick={() => setDark(!dark)}>
@@ -94,19 +68,6 @@ export default function Navbar() {
         >
           <div className="p-5 flex flex-col justify-between h-full">
             <ul className="space-y-3">
-              <button
-                onClick={() => {
-                  window.scrollTo(0, 0);
-                  setNav(false);
-                }}
-              >
-                Home
-              </button>
-              {navLinks.map((navLink) => (
-                <a key={navLink.id} href={navLink.path} className="block">
-                  <li onClick={() => setNav(false)}>{navLink.title}</li>
-                </a>
-              ))}
               <div className="flex items-center space-x-3">
                 <BsSun />
                 <button className="text-xl" onClick={() => setDark(!dark)}>

@@ -6,6 +6,7 @@ import { TOOLS } from "../constants/tools";
 import { Tooltip } from 'react-tooltip'
 import React, { useState } from "react";
 import ProjectModal from "../components/Modal";
+import BlogList from "../components/BlogList";
 
 export default function Home() {
 
@@ -45,7 +46,7 @@ export default function Home() {
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/about</h2>
         <p>
-        Hi, I&apos;m Laurate, you can call me May. I&apos;m a a full stack software engineer based in the UK and Cardiff University graduate. I&apos;m proudly deaf, self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of software designs, development, and testing.
+          Hi, I&apos;m Laurate, you can call me May. I&apos;m a a full stack software engineer based in the UK and Cardiff University graduate. I&apos;m proudly deaf, self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of software designs, development, and testing.
         </p>
         <p>
           Currently, I am seeking for a full time Full Stack Software Engineering especially in Java Spring, but I am open to any opportunities and always willing to learn!
@@ -64,8 +65,8 @@ export default function Home() {
             <div
               key={tool.id}
               className="border border-neutral-500 dark:border-amber-50 p-4 space-y-4 grid place-items-center"
-            >              
-            <p className="text-center">{tool.title}</p>
+            >
+              <p className="text-center">{tool.title}</p>
             </div>
           ))}
         </div>
@@ -82,11 +83,11 @@ export default function Home() {
               data-tip={project.title}
             >
               <a href={project.link} onClick={() => openModal(project)}>
-              <div className="flex">
-                <picture>
-                  <img src={project.image} className="flex-shrink w-70 h-50 object-cover" alt="Project cover" />
-                </picture>
-                </div>  
+                <div className="flex">
+                  <picture>
+                    <img src={project.image} className="flex-shrink w-70 h-50 object-cover" alt="Project cover" />
+                  </picture>
+                </div>
               </a>
               <div >
                 <p className="font-bold text-base">{project.title}</p>
@@ -94,10 +95,10 @@ export default function Home() {
 
                 <div className="flex items-center gap-1 mt-2">
                   {project.techs.map((tech) => (
-                    <span key={tech.id} 
+                    <span key={tech.id}
                       className="text-lg" data-tooltip-id="my-tooltip-inline"
                       data-tooltip-content={tech.name}
-                      >
+                    >
                       {tech.icon}
                     </span>
                   ))}
@@ -108,21 +109,28 @@ export default function Home() {
           ))}
           {modalProject && <ProjectModal project={modalProject} onClose={closeModal} />}
         </div>
-        <Tooltip  id="my-tooltip-inline" style={{ backgroundColor: "rgb(55, 55, 55)", color: "#fff" }}/>
+        <Tooltip id="my-tooltip-inline" style={{ backgroundColor: "rgb(55, 55, 55)", color: "#fff" }} />
       </section>
- 
+
       <section id="contact" className="space-y-4">
-      <Spacer />
+        <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/contact</h2>
-         <p>
+        <p>
           My inbox is always open, whether you have a question or just want to say hello, I will try my best to get back to you! Kindly reach out to me on my Facebook page{' '}
           <a href="https://www.facebook.com/BlueCloudITSolution" style={{ textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer">
-          @BlueCloudITSolution
+            @BlueCloudITSolution
           </a>{' '} or email{' '} <a href="mailto:lauraojenas@yahoo.com" style={{ textDecoration: 'underline' }}> lauraojenas@yahoo.com </a>
-         </p>
-       </section>
+        </p>
+      </section>
 
-       <Spacer />
+      {/* Blogging section */}
+      <section id="blog" className="space-y-4">
+        <Spacer />
+        <h2 className="text-2xl font-bold tracking-widest">/blog</h2>
+        <BlogList />
+      </section>
+
+      <Spacer />
       <section className="grid place-items-center">
         <figure className="text-sm space-y-3">
           <blockquote className="italic">
