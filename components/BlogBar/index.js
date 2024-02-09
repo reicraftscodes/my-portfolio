@@ -29,13 +29,13 @@ export default function BlogBar() {
 
   return (
     <nav className="transition duration-300 ease-in fixed w-full lg:grid place-items-center dark:text-neutral-200">
-      <div className="transition duration-300 ease-in lg:w-[70%] bg-amber-50 dark:bg-gray-800 border-b border-neutral-500 dark:border-neutral-200 h-14 py-3 px-5">
+      <div className="transition duration-300 ease-in lg:w-[70%] bg-amber-50 dark:bg-gray-800 h-14 py-3 px-5">
         <div className="flex items-center justify-between h-full">
           <h1
             className="uppercase tracking-widest font-bold text-xl cursor-pointer"
             onClick={handleTitleClick}
           >
-            _LMS
+            {'</LMS>'}
           </h1>
 
           <button className="md:hidden" onClick={() => setNav(!nav)}>
