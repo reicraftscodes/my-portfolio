@@ -59,6 +59,7 @@ const components = {
 
 const BlogPost = ({ source, frontMatter }) => {
   const router = useRouter();
+  const [copied, setCopied] = useState(false); // Move state initialization outside
 
   useEffect(() => {
     // Redirect to the home page if a 404 error occurs
@@ -67,9 +68,7 @@ const BlogPost = ({ source, frontMatter }) => {
     }
   }, [frontMatter, router]);
 
-  if (router.isFallback) {
-    return <div>Loading...</div>;
-  }
+  // ... rest of your code
 
   const handleBack = () => {
     router.back();
@@ -91,7 +90,46 @@ const BlogPost = ({ source, frontMatter }) => {
         <div className="w-full items-center justify-center text-left">
           <div className="space-y-4">
             {/* Render MDX content using MDXProvider */}
-            <MDXProvider components={components}>
+            <MDXProvider components={{
+              ...components,
+              code: ({ className, children }) => {
+                const language = className ? className.replace(/language-/, '') : '';
+
+                const handleCopy = () => {
+                  setCopied(true);
+                  setTimeout(() => setCopied(false), 1500);
+                };
+
+                return (
+                  <div style={{ position: 'relative' }}>
+                    <CopyToClipboard text={String(children)} onCopy={handleCopy}>
+                      <button
+                        style={{
+                          position: 'absolute',
+                          top: '10px',
+                          right: '10px',
+                          zIndex: '1',
+                          padding: '5px',
+                          backgroundColor: '#333',
+                          color: '#fff',
+                          border: 'none',
+                          borderRadius: '5px',
+                          cursor: 'pointer',
+                        }}
+                      >
+                        {copied ? 'Copied!' : 'Copy to Clipboard'}
+                      </button>
+                    </CopyToClipboard>
+                    <SyntaxHighlighter
+                      style={nightOwl}
+                      language={language}
+                      PreTag="div"
+                      children={String(children).replace(/\n$/, '')} // Remove trailing newline
+                    />
+                  </div>
+                );
+              },
+            }}>
               <MDXRemote {...source} />
             </MDXProvider>
           </div>
