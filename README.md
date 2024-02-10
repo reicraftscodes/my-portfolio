@@ -30,25 +30,25 @@ The easiest way to deploy Next.js app is to use the Vercel Platform from the cre
 
 2. As you can see you're being ask to import Git Repository, what you can do is press Continue with Github
 <div align="center">
-  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/1.png" />
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/master/public/dep/1.png" />
 </div>
 3. Import your project repository and then next.
 <div align="center">
-  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/2.png" />
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/master/public/dep/2.png" />
 </div>
 4. Hit Deploy button
 <div align="center">
-  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/3.png" />
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/master/public/dep/3.png" />
 </div>
 5. Wait until vercel deploy your app
 <div align="center">
-  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/4.png" />
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/master/public/dep/4.png" />
 </div>
 6. When the deployment is successful, you will something like this
 <div align="center">
-  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/5.png" />
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/master/public/dep/5.png" />
 </div>
 7. If you want to change your project domain, go to Settings -> Domains 
 <div align="center">
-  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/dev/public/dep/6.png" />
+  <img alt="Demo" src="https://github.com/reicraftscodes/my-portfolio/blob/master/public/dep/6.png" />
 </div>
