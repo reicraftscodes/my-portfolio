@@ -8,6 +8,9 @@ import { useEffect } from 'react';
 import Spacer from '../../components/Spacer';
 import ContainerBlog from '../../components/ContainerBlog';
 import { MDXProvider } from '@mdx-js/react';
+import NotFoundPage from '../404'; // Import your NotFoundPage component
+import Spinner from '../../components/Spinner';
+
 
 const components = {
   h1: (props) => <h1 style={{ fontSize: '2em', fontWeight: 'bold' }} {...props} />,
@@ -18,14 +21,17 @@ const BlogPost = ({ source, frontMatter }) => {
   const router = useRouter();
 
   useEffect(() => {
-    // Redirect to home page if a 404 error occurs
     if (!frontMatter) {
-      router.replace('/');
+      router.replace('/404');
     }
   }, [frontMatter, router]);
 
   if (router.isFallback) {
     return <div>Loading...</div>;
+  }
+
+  if (!frontMatter) {
+    return <NotFoundPage />;
   }
 
   const handleBack = () => {
