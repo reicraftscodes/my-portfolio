@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import Spacer from '../../components/Spacer';
 import ContainerBlog from '../../components/ContainerBlog';
 import { MDXProvider } from '@mdx-js/react';
+import { BLOGDATA } from '../../constants/blogTopics';
 import NotFoundPage from '../404';
 
 const components = {
@@ -63,28 +64,10 @@ const BlogPost = ({ source, frontMatter }) => {
 };
 
 export async function getStaticPaths() {
-  const BLOGDATA = [
-    {
-      id: "1",
-      title: "Test",
-    },
-    {
-      id: "2",
-      title: "Test 2",
-    },
-    {
-      id: "3",
-      title: "Test 3",
-    },
-    {
-      id: "4",
-      title: "Test 4",
-    },
-  ];
-
   const paths = BLOGDATA.map((post) => ({
     params: { slug: post.id },
   }));
+
   return { paths, fallback: true }; // Set fallback to true
 }
 
