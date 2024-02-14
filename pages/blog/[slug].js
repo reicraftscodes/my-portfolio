@@ -13,7 +13,7 @@ import NotFoundPage from '../404';
 
 const components = {
   h1: (props) => <h1 style={{ fontSize: '2em', fontWeight: 'bold' }} {...props} />,
-  h2: (props) => <h2 style={{ fontSize: '1em', fontWeight: 'bold' }} {...props} />,
+  h2: (props) => <h2 style={{ fontSize: '1.5em', fontWeight: 'bold' }} {...props} />,
 };
 
 const BlogPost = ({ source, frontMatter }) => {

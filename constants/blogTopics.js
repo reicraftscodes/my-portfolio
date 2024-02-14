@@ -5,7 +5,7 @@ export const BLOGDATA = [
   },
   {
     id: "2",
-    title: "Blog coming soon..",
+    title: "How to stay motivated while learning coding",
   },
   {
     id: "3",
