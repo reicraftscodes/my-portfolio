@@ -56,22 +56,6 @@ export default function Home() {
         </p>
       </section>
 
-      <section id="tools" className="space-y-4">
-        <Spacer />
-        <h2 className="text-2xl font-bold tracking-widest">/skills & technologies</h2>
-        <p>If you are wondering what technologies and practices I have used, here is the list of technologies I have implemented primarily on my work experience, freelancing and personal projects!</p>
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-2">
-          {TOOLS.map((tool) => (
-            <div
-              key={tool.id}
-              className="border border-neutral-500 dark:border-amber-50 p-4 space-y-4 grid place-items-center"
-            >
-              <p className="text-center">{tool.title}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       <section id="projects" className="space-y-4">
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/projects</h2>
@@ -110,6 +94,22 @@ export default function Home() {
           {modalProject && <ProjectModal project={modalProject} onClose={closeModal} />}
         </div>
         <Tooltip id="my-tooltip-inline" style={{ backgroundColor: "rgb(55, 55, 55)", color: "#fff" }} />
+      </section>
+
+      <section id="tools" className="space-y-4">
+        <Spacer />
+        <h2 className="text-2xl font-bold tracking-widest">/skills & technologies</h2>
+        <p>If you are wondering what technologies and practices I have used, here is the list of technologies I have implemented primarily on my work experience, freelancing and personal projects!</p>
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-2">
+          {TOOLS.map((tool) => (
+            <div
+              key={tool.id}
+              className="border border-neutral-500 dark:border-amber-50 p-4 space-y-4 grid place-items-center"
+            >
+              <p className="text-center">{tool.title}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section id="contact" className="space-y-4">
