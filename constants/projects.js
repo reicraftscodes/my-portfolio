@@ -20,12 +20,51 @@ import {
   SiJinja,
   SiSqlite,
   SiNextdotjs,
-  SiVercel
+  SiVercel,
+  SiNetlify,
+  SiCss3
 } from "react-icons/si"
 
 export const PROJECTS = [
   {
     id: 1,
+    title: "Art Portfolio",
+    description: " A web art portfolio for my sister that allows her to showcase artwork. ",
+    fullDesc: `
+      <ul>
+        <li style="font-weight: bold">Project Description: </li>
+        <p> The Leigha Mikaella portfolio website is a art portfolio website I created for my sister that allows her to showcase artwork and serves as a platform where she can sell her art. </p>
+        <br>
+        <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://leighamikaella.netlify.app/" target="_blank"> Leigha Mikaella Portfolio </a> </li>
+        <br>
+        <li style="font-weight: bold">Features: </li>
+        <br>
+        <ul>
+          <li> - Implemented a visually appealing and user-friendly interface with the option to switch between dark and light modes to enhance user experience based on personal preferences. </li>
+          <li> - The website is responsive and adapts seamlessly to different screen sizes and devices, providing a consistent and optimized experience for users on desktops, tablets, and mobile devices.</li>
+         </ul>
+        <br>
+        <li style="font-weight: bold">Technologies used: </li>
+        <ul>
+          <li> - React.js v18 </li>
+          <li> - CSS for design styling </li>
+          <li> - Netflify for deployment </li>
+        </ul>
+        <br>
+        <li> Published date:  FEBRUARY 2024 </li>
+      </ul>
+    `,
+    image: "/images/artfolio.png",
+    techs: [
+      { id: 1, name: "React.js", icon: <GrReactjs/> },
+      { id: 2, name: "Netflify", icon: <SiNetlify/> },
+      { id: 3, name: "CSS", icon: <SiCss3/> },
+
+    ],
+    other: "#Portfolio"
+  },
+  {
+    id: 2,
     title: "LMS Portfolio",
     description: " A LMS Portfolio website containing the cool stuff I have worked on ",
     fullDesc: `
@@ -36,7 +75,7 @@ export const PROJECTS = [
         <li style="font-weight: bold; "> Project Link: <a style="text-decoration: underline; " href="https://github.com/reicraftscodes/my-portfolio" target="_blank"> https://github.com/reicraftscodes/my-portfolio</a> </li>
         <br>
         <li style="font-weight: bold">Features: </li>
-        <li>Here are some possible features that I would like to implement</li>
+        <li>Here are the list features that I implemented</li>
         <br>
         <ul>
           <li> - Dark Mode and Light Mode: Implemented a visually appealing and user-friendly interface with the option to switch between dark and light modes to enhance user experience based on personal preferences. </li>
@@ -44,10 +83,10 @@ export const PROJECTS = [
           <li> - Smooth Navigation: Implemented an intuitive navigation system, allowing users to effortlessly explore the various sections of the website, enhancing the overall accessibility and user experience.</li>
          </ul>
         <br>
-        <li style="font-weight: bold">Technologies: </li>
+        <li style="font-weight: bold">Technologies used: </li>
         <ul>
           <li> - Next.js </li>
-          <li> - React.js </li>
+          <li> - React.js v18 </li>
           <li> - Vercel for deployment </li>
         </ul>
         <br>
@@ -63,7 +102,7 @@ export const PROJECTS = [
     other: "#Portfolio"
   },
   {
-    id: 2,
+    id: 3,
     title: "CoDeaf Tech Community",
     description: " A CoDeaf is a web-based tech platform for deaf & hard of hearing ",
     datePublished: "DECEMBER 2023 - PRESENT",
@@ -108,7 +147,7 @@ export const PROJECTS = [
     other: "#TechCommunity"
   },
   {
-    id: 3,
+    id: 4,
     title: "UAS Management Application (Backend)",
     description: "Spring Backend REST API for web and android for UAS Management Application",
     fullDesc: `
@@ -162,7 +201,7 @@ export const PROJECTS = [
     other: "#Unit-testing #Integration-Testing #TDD #BDD"
   },
   {
-    id: 4,
+    id: 5,
     title: "UAS Management Application (Frontend)",
     description: "A web and android inventory and tracking system for UAS Management App",
     datePublished: "DECEMBER 2021 - MARCH 2022",
@@ -212,7 +251,7 @@ export const PROJECTS = [
     other: "#End-to-end Testing #BDD"
   },
   {
-    id: 5,
+    id: 6,
     title: "ActiveBee",
     description: " A real-time web chat application that aims for Cardiff university students",
     fullDesc: `
@@ -256,7 +295,7 @@ export const PROJECTS = [
     other: "#End-to-end Testing"
   },
   {
-    id: 6,
+    id: 7,
     title: "Skill-Sharing Web Application",
     description: "A Spring Boot skill-sharing web app designed for employees of the ONS.",
     fullDesc: `
@@ -309,7 +348,7 @@ export const PROJECTS = [
     other: "#Spring MVC #Mockito #Unit Testing"
   },
   {
-    id: 7,
+    id: 8,
     title: "Charity Giving",
     description: "A web app for donating to UK charities, tracking and reaching total monetary target",
     fullDesc: `
@@ -356,7 +395,7 @@ export const PROJECTS = [
     other: "#Spring MVC #Mockito #Unit Testing"
   },
   {
-    id: 8,
+    id: 9,
     title: "Accu-Serve Customs Brokerage",
     description: "A custom brokerage web app providing clients with top-notch services ",
     datePublished: "2019",
@@ -403,7 +442,7 @@ export const PROJECTS = [
     other: ""
   },
   {
-    id: 9,
+    id: 10,
     title: "Tourist Application",
     description: "A python web application designed for visitors tourist find local shops",
     fullDesc: `
