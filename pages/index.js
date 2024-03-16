@@ -46,7 +46,7 @@ export default function Home() {
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/about</h2>
         <p>
-          Hi, I&apos;m May you call me Laurate, I&apos;m based in Cardiff UK and Cardiff University graduate. I&apos;m self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of UI designs and different technological platforms and programming languages.
+          Hi, I&apos;m May you call me Laurate, I&apos;m based in Penarth, The Vale of Glamorgan UK and Cardiff University graduate. I&apos;m self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of UI designs and different technological platforms and programming languages.
         </p>
         <p>
           Currently, I am actively seeking a Software Engineering role, preferably in Java, although I am open to exploring opportunities in other technologies. I am particularly interested in intern or junior developer positions where I can continue to learn and grow.
