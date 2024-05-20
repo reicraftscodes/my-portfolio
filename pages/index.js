@@ -54,6 +54,13 @@ export default function Home() {
           My hobbies include reading novels, playing online/video games, acrylic painting, photography, traveling, and cooking. I like to play drums although my right ear may be deaf, I can still play the drums. Cool right?
         </p>
       </section>
+      
+         {/* Blogging section */}
+         <section id="blog" className="space-y-4">
+        <Spacer />
+        <h2 className="text-2xl font-bold tracking-widest">/blog</h2>
+        <BlogList />
+      </section>
 
       <section id="projects" className="space-y-4">
         <Spacer />
@@ -120,13 +127,6 @@ export default function Home() {
             @BlueCloudITSolution
           </a>{' '} or email{' '} <a href="mailto:lauraojenas@yahoo.com" style={{ textDecoration: 'underline' }}> lauraojenas@yahoo.com </a>
         </p>
-      </section>
-
-      {/* Blogging section */}
-      <section id="blog" className="space-y-4">
-        <Spacer />
-        <h2 className="text-2xl font-bold tracking-widest">/blog</h2>
-        <BlogList />
       </section>
 
       <Spacer />

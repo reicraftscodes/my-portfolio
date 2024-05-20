@@ -9,7 +9,7 @@ export const BLOGDATA = [
   },
   {
     id: "3",
-    title: "Blog coming soon..",
+    title: "Why I want to pursue Artificial Intelligence MSc",
   },
   {
     id: "4",
