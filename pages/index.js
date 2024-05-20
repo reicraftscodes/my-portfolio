@@ -46,11 +46,10 @@ export default function Home() {
         <Spacer />
         <h2 className="text-2xl font-bold tracking-widest">/about</h2>
         <p>
-          Hi, I&apos;m May you call me Laurate, I&apos;m based in Cardiff UK and Cardiff University graduate. I&apos;m self-motivated, performance-driven, and a detail-oriented person with extensive knowledge of UI designs and different technological platforms and programming languages.
+          Hi, I&apos;m May you call me Laurate (Loh-rey), I&apos;m based in Cardiff UK and Cardiff University graduate. I&apos;m self-motivated, performance-driven, and a detail-oriented person with extensive experience of of UX designs and product development for enterprise applications and API.
         </p>
         <p>
-          Currently, I am actively seeking a Software Engineering role, preferably in Java, although I am open to exploring opportunities in other technologies. I am particularly interested in intern or junior developer positions where I can continue to learn and grow.
-        </p>
+        Additionally, I have consistently proven to be a fast learner, independent, and critical thinker. I am interested in pursuing a master's degree in Artificial Intelligence to deepen my understanding of advanced AI concepts and Human Centric Computing </p>
         <p>
           My hobbies include reading novels, playing online/video games, acrylic painting, photography, traveling, and cooking. I like to play drums although my right ear may be deaf, I can still play the drums. Cool right?
         </p>
